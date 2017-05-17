@@ -1,0 +1,2802 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN""http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<base target="_blank">
+<title>Pure Email Template</title>
+<style type="text/css">
+
+body *{font-family: 'Open Sans', Arial, sans-serif !important}
+
+div, p, a, li, td { -webkit-text-size-adjust:none; }
+
+*{-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+td{word-break: break-word;}
+a{word-break: break-word; text-decoration: none; color: inherit;}
+body td img:hover {opacity:0.85;filter:alpha(opacity=85);}
+
+body .ReadMsgBody
+{width: 100%; background-color: #ffffff;}
+body .ExternalClass
+{width: 100%; background-color: #ffffff;}
+body{width: 100%; height: 100%; background-color: #ffffff; margin:0; padding:0; -webkit-font-smoothing: antialiased;}
+html{ background-color:#ffffff; width: 100%;}
+
+body img {user-drag: none; -moz-user-select: none; -webkit-user-drag: none;}
+body .underline:hover {text-decoration: underline!important;}
+body a.rotator img {-webkit-transition: all 1s ease-in-out;-moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; }
+body a.rotator img:hover { -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg);-ms-transform: rotate(360deg); }
+body .hover:hover {opacity:0.85;filter:alpha(opacity=85);}
+body .jump:hover {opacity:0.75; filter:alpha(opacity=75); padding-top: 10px!important;}
+
+body .headerScale img {width: 600px; height: auto;}
+body .icon img {width: 35px; height: auto;}
+body .btn125 img {width: 125px; height: auto;}
+body .logoTop img {width: 100px; height: auto;}
+body .voucherLogo img {width: 100px; height: auto;}
+body .image img {width: 185px; height: auto;}
+body .iconsImages img {width: 84px; height: auto;}
+body .screenLeft img {width: 139px;}
+body .screenRight img {width: 139px;}
+body .imageMobile img {width: 292px;}
+body .vidScale img {width: 512px;}
+
+</style>
+
+<style type="text/css">@media only screen and (max-width: 640px){
+		body body{width:auto!important;}
+		body table[class=full] {width: 100%; clear: both; }
+		body table[class=mobile] {width: 100%; padding-left: 20px; padding-right: 20px; clear: both; }
+		body table[class=fullCenter] {width: 100%; text-align: center!important; clear: both; }
+		body td[class=fullCenter] {width: 100%; text-align: center!important; clear: both; }
+		body td[class=textCenter] {width: 100%; text-align: center!important; clear: both; }
+		body table[class=headerScale] {width: 100%!important; text-align: center!important; clear: both; }
+		body .headerScale img {width: 100%!important; height: auto;}
+		body table[class=vidScale] {width: 100%!important; text-align: center!important; clear: both; }
+		body .vidScale img {width: 100%!important; height: auto;}
+		body .erase {display: none;}
+		body table[class=screenLeft] {padding-right: 6px;}
+		body table[class=screenRight] {padding-left: 6px;}
+		body table[class=w90] {width: 90%!important;}
+		body table[class=icon] {width: 100%; text-align: center!important; clear: both; }
+		body table[class=imageMobile] {width: 100%; text-align: center!important; clear: both;}
+		body .imageMobile img {width: 292px!important;}
+		body .voucher1 {width: 100%!important; border-left: none!important; text-align: center!important;}
+		body .fullOne {background-color: #efefef; height: 1px!important;}
+		body .h25 {height:25px!important;}
+		body .w40 {width: 40px!important;}
+		body .pad20 {padding-left: 20px!important; padding-right: 20px!important;}
+
+}</style>
+
+<style type="text/css">@media only screen and (max-width: 479px){
+		body body{width:auto!important;}
+		body table[class=full] {width: 100%; clear: both; }
+		body table[class=mobile] {width: 100%; padding-left: 20px; padding-right: 20px; clear: both; }
+		body table[class=fullCenter] {width: 100%; text-align: center!important; clear: both; }
+		body td[class=fullCenter] {width: 100%; text-align: center!important; clear: both; }
+		body td[class=textCenter] {width: 100%; text-align: center!important; clear: both; }
+		body table[class=headerScale] {width: 100%!important; text-align: center!important; clear: both; }
+		body .headerScale img {width: 100%!important; height: auto;}
+		body table[class=vidScale] {width: 100%!important; text-align: center!important; clear: both; }
+		body .vidScale img {width: 100%!important; height: auto;}
+		body .erase {display: none;}
+		body .eraseMob {display: none;}
+		body table[class=screenLeft] {padding-right: 6px;}
+		body table[class=screenRight] {padding-left: 6px;}
+		body .font20 {font-size: 20px!important; line-height: 30px!important;}
+		body table[class=w90] {width: 90%!important;}
+		body table[class=icon] {width: 100%; text-align: center!important; clear: both; }
+		body table[class=imageMobile] {width: 100%; text-align: center!important; clear: both;}
+		body .imageMobile img {width: 80%!important; height:auto!important;}
+		body .voucher1 {width: 100%!important; border-left: none!important; text-align: center!important;}
+		body .fullOne {background-color: #efefef; height: 1px!important;}
+		body .h25 {height:25px!important;}
+		body .w40 {width: 40px!important;}
+		body .subscribe {padding-left: 5px!important; padding-right: 5px!important;}
+		body .break {width: 100%!important; display: table-cell!important; margin:0; padding-bottom: 10px!important;}
+		body .notifyBtn {-webkit-border-radius: 4px!important; -moz-border-radius: 4px!important; border-radius: 4px!important;}
+		body .pad20 {padding-left: 20px!important; padding-right: 20px!important;}
+}</style>
+
+</head>
+<body style='margin: 0; padding: 0;'>
+
+<repeater><layout label="1"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+		
+			<!-- Start Nav -->
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td width="100%" height="20"></td>
+				</tr>
+				<tr>
+					<td width="100%" align="center" class="logoTop">
+						
+						<!-- Logo -->
+						<table width="240" border="0" cellpadding="0" cellspacing="0" align="center" class="fullCenter">
+							<tbody><tr>
+								<td valign="middle" width="100%" style="text-align: center;" class="fullCenter" align="center">
+									<a href="#" style="text-align: center;"><img src="images/logo.png" editable="true" width="100" height="auto" style="width: 100px; height: auto;" alt="" border="0"></a>
+								</td>
+							</tr>
+						</tbody></table>
+														
+					</td>
+				</tr>
+				<tr>
+					<td width="100%" height="20"></td>
+				</tr>
+			</tbody></table><!-- End Nav -->
+			
+		</td>
+	</tr>
+</table></layout></repeater>
+
+<repeater><layout label="2"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#f9f9f9">
+	<tbody><tr>
+		<td align="center" style="background-image: url('images/header_bg.jpg'); -webkit-background-size: cover; background-size: cover; background-position: center center;">
+		<!--[if gte mso 9]> <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;"><v:fill type="tile" src="images/header_bg.jpg"/><v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0"><![endif]--><div>
+		
+			<!-- Start Header -->
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td width="100%" height="40"></td>
+				</tr>
+				<tr>
+					<td width="100%" align="center">
+						
+						<!-- Headline + Text -->
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="headerScale">
+							<tbody><tr>
+								<td height="80" valign="middle" width="100%" style="text-align: center; color: #333333; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 26px; line-height: 34px; font-weight: 400;" class="font20">
+									<singleline>There’s something happening here,<br class="erase"> and it’ll be soon available in the App Store!</singleline>
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="40"></td>
+							</tr>
+							<tr>
+								<td height="80" valign="middle" width="100%" style="text-align: center; line-height: 1px;" class="fullCenter">
+									<a href="#" style="text-align: center;"><img src="images/header.png" editable="true" width="600" height="auto" style="width: 600px; height: auto;" alt="" border="0"></a>
+								</td>
+							</tr>
+						</tbody></table>
+														
+					</td>
+				</tr>
+			</tbody></table><!-- End Header -->
+			
+			</div><!--[if gte mso 9.]>
+        	</v:textbox>
+       		</v:fill></v:rect>
+       		<![endif]-->
+		
+		</td>
+	</tr>
+</table></layout></repeater>
+
+<repeater><layout label="3"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+		
+			<!-- Start Buttons -->
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td width="100%" height="40"></td>
+				</tr>
+				<tr>
+					<td width="100%" align="center" class="btn125">
+						
+						<!-- Buttons -->
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="fullCenter">
+							<tbody><tr>
+								<td width="48%" style="text-align: right; line-height: 1px;">
+									<a href="#" style="text-align: right;"><img src="images/button1.png" editable="true" width="125" height="auto" style="width: 125px; height: auto;" alt="" border="0"></a>
+								</td>
+								<td width="4%"></td>
+								<td width="48%" style="text-align: left; line-height: 1px;">
+									<a href="#" style="text-align: left;"><img src="images/button2.png" editable="true" width="125" height="auto" style="width: 125px; height: auto;" alt="" border="0"></a>
+								</td>
+							</tr>
+						</tbody></table>
+														
+					</td>
+				</tr>
+				<tr>
+					<td width="100%" height="20"></td>
+				</tr>
+			</tbody></table><!-- End Buttons -->
+				
+		</td>
+	</tr>
+</table></layout></repeater>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+		
+			<!-- Divider -->
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="20"></td>
+				</tr>
+				<tr>
+					<td width="100%" height="1" bgcolor="#f1f1f1" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="100%" height="20"></td>
+				</tr>
+			</tbody></table><!-- End Divider -->
+				
+		</td>
+	</tr>
+</tbody></table>
+
+<repeater><layout label="4"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+							
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td width="100%" align="center">
+						
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table>
+						
+						<!-- Icon 1 -->
+						<table width="175" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align: center;" class="fullCenter">
+							<tbody><tr>
+								<td width="175" height="100" align="center">
+									<table width="175" border="0" cellpadding="0" cellspacing="0" align="center" class="iconsImages">
+										<tbody><tr>
+											<td width="100%" height="84" style="text-align: center;">
+												<a href="#" style="text-decoration: none;"><img src="images/icon1.png" editable="true" width="84" alt="" border="0" class="jump"></a>
+											</td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td width="100%" style="font-size: 18px; color: #333333; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;">	
+									<singleline>HTML5 &amp; CSS3</singleline>					
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="15"></td>
+							</tr>
+							<tr>
+								<td width="100%" style="font-size: 13px; color: #777777; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;">	
+									<singleline>Bacon ipsum dolor sit amet boudin ribeye flank, beef jowl doner tri-tip.</singleline>
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="50">									
+								</td>
+							</tr>
+							<!-- Button Center -->
+							<tr>
+								<td align="center">
+									<table border="0" cellpadding="0" cellspacing="0" align="center"> 
+										<tbody><tr> 
+											<td align="center" height="36" bgcolor="#dd5555" style="-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; padding-left: 20px; padding-right: 20px; font-weight: 400; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-transform: uppercase; background-color: #dd5555;">
+												<multiline><a href="#" style="color: #ffffff; font-size:13px; text-decoration: none; line-height:34px; width:100%;">Learn More</a></multiline>
+											</td> 
+										</tr> 
+									</tbody></table> 
+								</td>
+							</tr>
+							<!-- End Button Center -->
+							<tr>
+								<td width="100%" height="22">									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<table width="38" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="40">									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<!-- Icon 2 -->
+						<table width="175" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align: center;" class="fullCenter">
+							<tbody><tr>
+								<td width="175" height="100" align="center">
+									<table width="175" border="0" cellpadding="0" cellspacing="0" align="center" class="iconsImages">
+										<tbody><tr>
+											<td width="100%" height="84" style="text-align: center;">
+												<a href="#" style="text-decoration: none;"><img src="images/icon2.png" editable="true" width="84" alt="" border="0" class="jump"></a>
+											</td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td width="100%" style="font-size: 18px; color: #333333; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;">	
+									<singleline>Cool animations</singleline>				
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="15"></td>
+							</tr>
+							<tr>
+								<td width="100%" style="font-size: 13px; color: #777777; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;">	
+									<singleline>Bacon ipsum dolor sit amet boudin ribeye flank, beef jowl doner tri-tip.</singleline>
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="50">									
+								</td>
+							</tr>
+							<!-- Button Center -->
+							<tr>
+								<td align="center">
+									<table border="0" cellpadding="0" cellspacing="0" align="center"> 
+										<tbody><tr> 
+											<td align="center" height="36" bgcolor="#dd5555" style="-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; padding-left: 20px; padding-right: 20px; font-weight: 400; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-transform: uppercase; background-color: #dd5555;">
+												<multiline><a href="#" style="color: #ffffff; font-size:13px; text-decoration: none; line-height:34px; width:100%;">Learn More</a></multiline>
+											</td> 
+										</tr> 
+									</tbody></table> 
+								</td>
+							</tr>
+							<!-- End Button Center -->
+							<tr>
+								<td width="100%" height="22">									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<table width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="40">									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<!-- Icon 3 -->
+						<table width="175" border="0" cellpadding="0" cellspacing="0" align="right" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align: center;" class="fullCenter">
+							<tbody><tr>
+								<td width="175" height="100" align="center"> 
+									<table width="175" border="0" cellpadding="0" cellspacing="0" align="center" class="iconsImages">
+										<tbody><tr>
+											<td width="100%" height="84" style="text-align: center;">
+												<a href="#" style="text-decoration: none;"><img src="images/icon3.png" editable="true" width="84" alt="" border="0" class="jump"></a>
+											</td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td width="100%" style="font-size: 18px; color: #333333; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;">	
+									<singleline>User Friendly</singleline>				
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="15"></td>
+							</tr>
+							<tr>
+								<td width="100%" style="font-size: 13px; color: #777777; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;">	
+									<singleline>Bacon ipsum dolor sit amet boudin ribeye flank, beef jowl doner tri-tip.</singleline>
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="50">									
+								</td>
+							</tr>
+							<!-- Button Center -->
+							<tr>
+								<td align="center">
+									<table border="0" cellpadding="0" cellspacing="0" align="center"> 
+										<tbody><tr> 
+											<td align="center" height="36" bgcolor="#dd5555" style="-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; padding-left: 20px; padding-right: 20px; font-weight: 400; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-transform: uppercase; background-color: #dd5555;">
+												<multiline><a href="#" style="color: #ffffff; font-size:13px; text-decoration: none; line-height:34px; width:100%;">Learn More</a></multiline>
+											</td> 
+										</tr> 
+									</tbody></table> 
+								</td>
+							</tr>
+							<!-- End Button Center -->
+							<tr>
+								<td width="100%" height="22">									
+								</td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table>
+			
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="30"></td>
+				</tr>
+			</tbody></table>
+		
+		</td>
+	</tr>
+</table></layout></repeater>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top">
+		
+			<!-- Divider -->
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="30"></td>
+				</tr>
+				<tr>
+					<td width="100%" height="1" bgcolor="#f1f1f1" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="100%" height="30"></td>
+				</tr>
+			</tbody></table><!-- End Divider -->
+			
+		</td>
+	</tr>
+</tbody></table>
+
+<repeater><layout label="5"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+			
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td valign="top" align="center">
+						
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tbody><tr>
+								<td width="100%" valign="top" align="center">
+					
+									<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+										<tbody><tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+									
+									<!-- Image 1 -->
+									<table width="290" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="imageMobile">
+										<tbody><tr>
+											<td width="100%" valign="top" class="textCenter">
+												<a href="#" style="text-decoration: none;">
+													<img src="images/image1.png" editable="true" alt="" border="0" width="290" height="auto" style="width: 290px; height: auto;">
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="0" class="h25"></td>
+										</tr>
+									</tbody></table>
+									
+									<!-- Image 1 Text -->
+									<table width="285" border="0" cellpadding="0" cellspacing="0" align="right" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+										<tbody><tr>
+											<td width="100%" height="0"></td>
+										</tr>
+										<tr>
+											<td width="100%" style="font-size: 18px; color: #333333; text-align: left; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;" class="textCenter">	
+												<singleline>Always look better with Apple®</singleline>						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td width="100%" style="font-size: 13px; color: #777777; text-align: left; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;" class="textCenter">	
+												<multiline>Bacon ipsum dolor sit amet chuck hamburger ribeye sirloin, meatloaf ball tip filet mignon pancetta shank. Tail turkey pork, ribeye sirloin tenderloin jerky beef bacon flank. Tenderloin strip steak ham bacon short loin leberkas
+												<br>
+												<a href="#" style="color: #dd5555;">Read more</a></multiline>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tbody><tr>
+								<td width="100%" height="20"></td>
+							</tr>
+						</tbody></table>
+						
+					
+					</td>
+				</tr>
+			</tbody></table>
+		
+		</td>
+	</tr>
+</table></layout></repeater>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+		
+			<!-- Divider -->
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="20"></td>
+				</tr>
+				<tr>
+					<td width="100%" height="1" bgcolor="#f1f1f1" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="100%" height="20"></td>
+				</tr>
+			</tbody></table><!-- End Divider -->
+		
+		</td>
+	</tr>
+</tbody></table>
+
+<repeater><layout label="6"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+					
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td width="100%" align="center">
+						
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table>
+						
+						<!-- Icon 4 -->
+						<table width="280" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align: center;" class="fullCenter">
+							<tbody><tr>
+								<td width="175" height="100" align="center">
+									<table width="175" border="0" cellpadding="0" cellspacing="0" align="center" class="iconsImages">
+										<tbody><tr>
+											<td width="100%" height="84" align="center" style="text-align: center;">
+												<a href="#" style="text-decoration: none;"><img src="images/icon4.png" editable="true" width="84" alt="" border="0" class="jump"></a>
+											</td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td width="100%" style="font-size: 18px; color: #333333; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;">	
+									<singleline>Fully Responsive</singleline>					
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="15"></td>
+							</tr>
+							<tr>
+								<td width="100%" style="font-size: 13px; color: #777777; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;">	
+									<singleline>Bacon ipsum dolor sit amet boudin ribeye flank, beef jowl doner tri-tip.</singleline>
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="50">									
+								</td>
+							</tr>
+							<!-- Button Center -->
+							<tr>
+								<td align="center">
+									<table border="0" cellpadding="0" cellspacing="0" align="center"> 
+										<tbody><tr> 
+											<td align="center" height="36" bgcolor="#dd5555" style="-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; padding-left: 20px; padding-right: 20px; font-weight: 400; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-transform: uppercase; background-color: #dd5555;">
+												<multiline><a href="#" style="color: #ffffff; font-size:13px; text-decoration: none; line-height:34px; width:100%;">Learn More</a></multiline>
+											</td> 
+										</tr> 
+									</tbody></table> 
+								</td>
+							</tr>
+							<!-- End Button Center -->
+							<tr>
+								<td width="100%" height="22">									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<table width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="40">									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<!-- Icon 5 -->
+						<table width="280" border="0" cellpadding="0" cellspacing="0" align="right" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align: center;" class="fullCenter">
+							<tbody><tr>
+								<td width="175" height="100" align="center">
+									<table width="175" border="0" cellpadding="0" cellspacing="0" align="center" class="iconsImages">
+										<tbody><tr>
+											<td width="100%" height="84" align="center" style="text-align: center;">
+												<a href="#" style="text-decoration: none;"><img src="images/icon5.png" editable="true" width="84" alt="" border="0" class="jump"></a>
+											</td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td width="100%" style="font-size: 18px; color: #333333; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;">	
+									<singleline>Video background</singleline>					
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="15"></td>
+							</tr>
+							<tr>
+								<td width="100%" style="font-size: 13px; color: #777777; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;">	
+									<singleline>Bacon ipsum dolor sit amet boudin ribeye flank, beef jowl doner tri-tip.</singleline>
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="50">									
+								</td>
+							</tr>
+							<!-- Button Center -->
+							<tr>
+								<td align="center">
+									<table border="0" cellpadding="0" cellspacing="0" align="center"> 
+										<tbody><tr> 
+											<td align="center" height="36" bgcolor="#dd5555" style="-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; padding-left: 20px; padding-right: 20px; font-weight: 400; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-transform: uppercase; background-color: #dd5555;">
+												<multiline><a href="#" style="color: #ffffff; font-size:13px; text-decoration: none; line-height:34px; width:100%;">Learn More</a></multiline>
+											</td> 
+										</tr> 
+									</tbody></table> 
+								</td>
+							</tr>
+							<!-- End Button Center -->
+							<tr>
+								<td width="100%" height="22">									
+								</td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table>
+			
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="60"></td>
+				</tr>
+			</tbody></table>
+	
+		</td>
+	</tr>
+</table></layout></repeater>
+
+<repeater><layout label="7"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#f9f9f9" style="background-color: #f9f9f9;" class="full">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+		
+			<!-- Divider -->
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="1" bgcolor="#f1f1f1" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+				</tr>
+			</tbody></table><!-- End Divider -->
+		
+			<!-- Start Long Image -->
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td width="100%" height="60"></td>
+				</tr>
+				<tr>
+					<td width="100%" align="center">
+						
+						<!-- Long Image + Text -->
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="headerScale">
+							<tbody><tr>
+								<td valign="middle" width="100%" style="text-align: center; color: #333333; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 18px; line-height: 24px; font-weight: 400;" class="fullCenter">
+									<singleline>Awesome Responsive Design</singleline>
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="15"></td>
+							</tr>
+							<tr>
+								<td height="80" valign="middle" width="100%" style="text-align: center; line-height: 1px;" class="fullCenter">
+									<a href="#" style="text-align: center;"><img src="images/long_img1.png" editable="true" width="532" alt="" border="0"></a>
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="20"></td>
+							</tr>
+							<tr>
+								<td width="100%" style="font-size: 13px; color: #777777; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;">	
+									<singleline>Bacon ipsum dolor sit amet chuck hamburger <br class="erase"> 
+									ribeye sirloin, meatloaf ball tip filet mignon</singleline>
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="45">									
+								</td>
+							</tr>
+							<!-- Button Center -->
+							<tr>
+								<td align="center">
+									<table border="0" cellpadding="0" cellspacing="0" align="center"> 
+										<tbody><tr> 
+											<td align="center" height="36" bgcolor="#dd5555" style="-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; padding-left: 20px; padding-right: 20px; font-weight: 400; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; color: #ffffff; text-transform: uppercase; background-color: #dd5555;">
+												<multiline><a href="#" style="color: #ffffff; font-size:13px; text-decoration: none; line-height:34px; width:100%;">Learn More</a></multiline>
+											</td> 
+										</tr> 
+									</tbody></table> 
+								</td>
+							</tr>
+							<!-- End Button Center -->
+							<tr>
+								<td width="100%" height="22">									
+								</td>
+							</tr>
+						</tbody></table>
+														
+					</td>
+				</tr>
+			</tbody></table><!-- End Long Image -->
+			
+			<!-- Divider -->
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="60">									
+					</td>
+				</tr>
+				<tr>
+					<td width="100%" height="1" bgcolor="#f1f1f1" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+				</tr>
+			</tbody></table><!-- End Divider -->
+		
+		</td>
+	</tr>
+</table></layout></repeater>
+
+<repeater><layout label="8"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+		
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td align="center">
+						
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tbody><tr>
+								<td width="100%" align="center">
+					
+									<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+										<tbody><tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+									
+									<!-- Image 1 Text -->
+									<table width="600" border="0" cellpadding="0" cellspacing="0" align="right" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+										<tbody><tr>
+											<td width="100%" height="30"></td>
+										</tr>
+										<tr>
+											<td width="100%" style="font-size: 18px; color: #333333; text-align: left; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;" class="textCenter">	
+												<singleline>Always look better with Apple®</singleline>							
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td width="100%" style="font-size: 13px; color: #777777; text-align: left; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;" class="textCenter">	
+												<multiline>Bacon ipsum dolor sit amet chuck hamburger ribeye sirloin, meatloaf ball tip filet mignon pancetta shank. Tail turkey pork, ribeye sirloin tenderloin jerky beef bacon flank. Tenderloin strip steak ham bacon short loin leberkas swine. On ipsum dolor sit amet chuck hamburger ribeye sirloin, meatloaf ball tip filet mignon pancetta shank. Tail turkey pork, ribeye sirloin tenderloin jerky beef bacon flank. Tenderloin strip steak ham bacon short loin leberkas swine
+												<br>
+												<a href="#" style="color: #dd5555;">Read more</a></multiline>
+								
+											</td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table>
+		
+		</td>
+	</tr>
+</table></layout></repeater>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+		
+			<!-- Divider -->
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="30"></td>
+				</tr>
+				<tr>
+					<td width="100%" height="1" bgcolor="#f1f1f1" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="100%" height="30"></td>
+				</tr>
+			</tbody></table><!-- End Divider -->
+		
+		</td>
+	</tr>
+</tbody></table>
+
+<repeater><layout label="9"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+		
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td align="center">
+					
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table>
+						
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tbody><tr>
+								<td width="100%" align="center">
+								
+									<!-- Image 1 Text -->
+									<table width="285" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
+										<tbody><tr>
+											<td width="100%" style="font-size: 18px; color: #333333; text-align: left; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;" class="textCenter">	
+												<singleline>Always look better with Apple®</singleline>							
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td width="100%" style="font-size: 13px; color: #777777; text-align: left; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;" class="textCenter">	
+												<multiline>Bacon ipsum dolor sit amet chuck hamburger ribeye sirloin, meatloaf ball tip filet mignon pancetta shank. Tail turkey pork, ribeye sirloin tenderloin jerky beef bacon flank. Tenderloin strip steak ham bacon short loin leberkas
+												<br>
+												<a href="#" style="color: #dd5555;">Read more</a></multiline>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+									
+									<!-- Image 2 -->
+									<table width="290" border="0" cellpadding="0" cellspacing="0" align="right" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="imageMobile">
+										<tbody><tr>
+											<td width="100%" style="line-height: 1px;" class="textCenter">
+												<a href="#" style="text-decoration: none;">
+													<img src="images/image2.png" editable="true" alt="" border="0" width="292" height="auto" style="width: 292px; height: auto;">
+												</a>
+											</td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table>
+			
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="1" bgcolor="#f1f1f1" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="100%" height="30"></td>
+				</tr>
+			</tbody></table>
+		
+		</td>
+	</tr>
+</table></layout></repeater>
+
+<repeater><layout label="10"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+						
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td width="100%" align="center">
+					
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table>
+					
+						<!-- Long Image + Text -->
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="fullCenter">
+							<tbody><tr>
+								<td valign="middle" width="100%" style="text-align: center; color: #333333; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 18px; line-height: 24px; font-weight: 400;" class="fullCenter">
+									<singleline>Screenshot Gallery</singleline> 
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="20"></td>
+							</tr>
+							<tr>
+								<td width="100%" style="font-size: 13px; color: #777777; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;">	
+									<singleline>Bacon ipsum dolor sit amet chuck hamburger ribeye <br class="erase"> sirloin, meatloaf ball tip filet mignon pancetta shank.</singleline>
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="22">									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table>
+						
+						<!-- Screenshot 1 + 2 -->
+						<table width="295" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align: center;" class="fullCenter">
+							<tbody><tr>
+								<td width="139" valign="top">
+									<table width="139" border="0" cellpadding="0" cellspacing="0" align="right" class="screenLeft">
+										<tbody><tr>
+											<td width="100%" style="text-align: right;" valign="top">
+												<a href="#" style="text-decoration: none;"><img src="images/screenshot1.png" editable="true" width="139" alt="" border="0"></a>
+											</td>
+										</tr>
+									</tbody></table>
+								</td>
+								<td width="15" height="40" class="erase"></td>
+								<td width="139" valign="top">
+									<table width="139" border="0" cellpadding="0" cellspacing="0" align="left" class="screenRight">
+										<tbody><tr>
+											<td width="100%" style="text-align: left;" valign="top">
+												<a href="#" style="text-decoration: none;"><img src="images/screenshot2.png" editable="true" width="139" alt="" border="0"></a>
+											</td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<table width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="10">									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<!-- Screenshot 3 + 4 -->
+						<table width="295" border="0" cellpadding="0" cellspacing="0" align="right" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align: center;" class="fullCenter">
+							<tbody><tr>
+								<td width="139" valign="top">
+									<table width="139" border="0" cellpadding="0" cellspacing="0" align="right" class="screenLeft">
+										<tbody><tr>
+											<td width="100%" style="text-align: right;" valign="top">
+												<a href="#" style="text-decoration: none;"><img src="images/screenshot3.png" editable="true" width="139" alt="" border="0"></a>
+											</td>
+										</tr>
+									</tbody></table>
+								</td>
+								<td width="15" height="40" class="erase"></td>
+								<td width="139" valign="top">
+									<table width="139" border="0" cellpadding="0" cellspacing="0" align="left" class="screenRight">
+										<tbody><tr>
+											<td width="100%" style="text-align: left;" valign="top">
+												<a href="#" style="text-decoration: none;"><img src="images/screenshot4.png" editable="true" width="139" alt="" border="0"></a>
+											</td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table>
+			
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="50"></td>
+				</tr>
+			</tbody></table>
+		
+		</td>
+	</tr>
+</table></layout></repeater>
+
+<repeater><layout label="11"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#f9f9f9" style="background-color: #f9f9f9;" class="full">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+		
+			<!-- Divider -->
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="1" bgcolor="#f1f1f1" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+				</tr>
+			</tbody></table><!-- End Divider -->
+		
+			<!-- Start Subscribe Wrapper -->
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td width="100%" height="40"></td>
+				</tr>
+				<tr>
+					<td width="100%" align="center">
+						
+						<!-- Subscribe -->
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="fullCenter">
+							<tbody><tr>
+								<td valign="middle" width="100%" style="text-align: center; color: #333333; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 18px; line-height: 24px; font-weight: 400;" class="fullCenter">
+									<singleline>Subscribe to our Newsletter</singleline> 
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="20"></td>
+							</tr>
+							<tr>
+								<td width="100%" style="font-size: 13px; color: #777777; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;">	
+									<singleline>This Emailaddress field is a trigger with a link that go's to your website&nbsp;<br class="erase">when clicked on it. You can't type your email address for real.</singleline>
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="40">									
+								</td>
+							</tr>
+							<tr>
+								<td valign="middle" width="100%" align="center">
+								
+									<!-- Subscribe -->
+									<table width="400" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
+										<tbody><tr>
+											<td width="0" class="erase"></td>
+											<td width="270" class="eraseMob">
+												<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+													<tbody><tr>
+														<td width="270" height="40" style="text-align: left; color: #b8b8b8; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; border-width: 1px; border-style: solid; border-color: #f1f1f1; border-top-left-radius: 4px; border-bottom-left-radius: 4px; font-weight: 400;"> 
+															<multiline><a href="#" style="text-decoration: none; color: #b8b8b8; padding: 10px 5px 10px 15px;" class="subscribe">Enter your Emailaddress..</a></multiline>
+														</td>
+													</tr>
+												</tbody></table>
+											</td>
+											<td width="100" height="40" bgcolor="#dd5555" style="text-align: center; color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; background-color: #dd5555; font-weight: 400;" class="notifyBtn">
+												<multiline><a href="#" style="text-decoration: none; color: #ffffff; padding-left: 5px; padding-right: 5px; text-transform: uppercase;">Notify me</a></multiline>
+											</td>
+											<td width="0" class="erase"></td>
+										</tr>
+									</tbody></table><!-- End Subscribe -->
+								
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="22">									
+								</td>
+							</tr>
+						</tbody></table>
+														
+					</td>
+				</tr>
+			</tbody></table><!-- End Subscribe Wrapper-->
+			
+			<!-- Divider -->
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="40">									
+					</td>
+				</tr>
+				<tr>
+					<td width="100%" height="1" bgcolor="#f1f1f1" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+				</tr>
+			</tbody></table><!-- End Divider -->
+		
+		</td>
+	</tr>
+</table></layout></repeater>
+
+<repeater><layout label="12"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+		
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td align="center">
+						
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tbody><tr>
+								<td width="100%" align="center">
+					
+									<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+										<tbody><tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+									
+									<!-- Image 1 Text -->
+									<table width="600" border="0" cellpadding="0" cellspacing="0" align="right" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+										<tbody><tr>
+											<td width="100%" height="30"></td>
+										</tr>
+										<tr>
+											<td width="100%" style="font-size: 18px; color: #333333; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;">	
+												<singleline>Always look better with Apple®</singleline>						
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td width="100%" style="font-size: 13px; color: #777777; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;">	
+												<multiline>Bacon ipsum dolor sit amet chuck hamburger ribeye sirloin, meatloaf ball tip filet mignon pancetta shank. Tail turkey pork, ribeye sirloin tenderloin jerky beef bacon flank. Tenderloin strip steak ham bacon short loin leberkas swine. On ipsum dolor sit amet chuck hamburger ribeye sirloin, meatloaf ball tip filet mignon pancetta shank. Tail turkey pork, ribeye sirloin tenderloin jerky beef bacon flank. Tenderloin strip steak ham bacon short loin leberkas swine
+												<br>
+												<a href="#" style="color: #dd5555;">Read more</a></multiline>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="30"></td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tbody><tr>
+								<td width="100%" height="25"></td>
+							</tr>
+						</tbody></table>
+					
+					</td>
+				</tr>
+			</tbody></table>
+		
+		</td>
+	</tr>
+</table></layout></repeater>
+
+<repeater><layout label="13"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+		
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="25"></td>
+				</tr>
+			</tbody></table>
+		
+			<!-- Start Video Image -->
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; border-width: 1px; border-style: solid; border-color: #f1f1f1;" class="full">
+				<tbody><tr>
+					<td width="100%">
+					
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#f9f9f9" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; background-color: #f9f9f9;" class="full">
+							<tbody><tr>
+								<td width="100%" height="50"></td>
+							</tr>
+							<tr>
+								<td width="100%" align="center">
+									
+									<!-- Video Image + Text -->
+									<table width="512" border="0" cellpadding="0" cellspacing="0" align="center" class="vidScale">
+										<tbody><tr>
+											<td valign="middle" width="100%" style="text-align: center; color: #333333; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 21px; line-height: 26px; font-weight: 400;" class="fullCenter">
+												<singleline>Want to see it in action?!</singleline>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="15"></td>
+										</tr>
+										<tr>
+											<td height="80" valign="middle" width="100%" style="text-align: center; line-height: 1px;" class="fullCenter">
+												<a href="#" style="text-align: center;"><img src="images/video.png" editable="true" width="512" height="auto" style="width: 512px; height: auto;" alt="" border="0"></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="10"></td>
+										</tr>
+										<tr>
+											<td width="100%" style="font-size: 13px; color: #777777; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;">	
+												<singleline>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br class="erase"> tempor incididunt ut labore et dolore magna aliqua.</singleline>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="35">									
+											</td>
+										</tr>
+										<!-- Button Center -->
+										<tr>
+											<td align="center">
+												<table border="0" cellpadding="0" cellspacing="0" align="center"> 
+													<tbody><tr> 
+														<td align="center" height="36" bgcolor="#dd5555" style="-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; padding-left: 20px; padding-right: 20px; font-weight: 400; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-transform: uppercase; background-color: #dd5555; font-size: 13px;">
+															<multiline><a href="#" style="color: #ffffff; font-size:13px; text-decoration: none; line-height:34px; width:100%;">Learn More</a></multiline>
+														</td> 
+													</tr> 
+												</tbody></table> 
+											</td>
+										</tr>
+										<!-- End Button Center -->
+										<tr>
+											<td width="100%" height="50">									
+											</td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+						</tbody></table>
+														
+					</td>
+				</tr>
+			</tbody></table><!-- End Long Image -->
+			
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="50">									
+					</td>
+				</tr>
+			</tbody></table>
+		
+		</td>
+	</tr>
+</table></layout></repeater>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center"> 
+		
+			<!-- Divider -->
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="20"></td>
+				</tr>
+				<tr>
+					<td width="100%" height="1" bgcolor="#f1f1f1" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="100%" height="20"></td>
+				</tr>
+			</tbody></table><!-- End Divider -->
+			
+		</td>
+	</tr>
+</tbody></table>
+
+<repeater><layout label="14"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+		
+			<!-- Title -->
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="fullCenter">
+				<tbody><tr>
+					<td width="100%" height="30"></td>
+				</tr>
+				<tr>
+					<td valign="middle" width="100%" style="text-align: center; color: #333333; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 18px; line-height: 24px; font-weight: 400;" class="fullCenter">
+						<singleline>Some Amazing Pricing Tables</singleline>
+					</td>
+				</tr>
+			</tbody></table>
+			
+		</td>
+	</tr>
+</table></layout></repeater>
+
+<repeater><layout label="15"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+						
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td width="100%" align="center">
+					
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="20"></td>
+							</tr>
+						</tbody></table>
+					
+						<!-- Tables -->
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="fullCenter">
+							<tbody><tr>
+								<td width="100%" style="font-size: 13px; color: #777777; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;">	
+									<singleline>4 Tables</singleline>
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table>
+						
+						<table width="137" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align: center; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;" class="fullCenter">
+							<tbody><tr>
+								<td width="137" valign="top">
+									
+									<table width="137" border="0" cellpadding="0" cellspacing="0" align="center" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; border-width: 1px; border-style: solid; border-color: #f1f1f1;" class="fullCenter">
+										<tbody><tr>
+											<td width="100%">
+									
+												<table width="137" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#f9f9f9" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; background-color: #f9f9f9;" class="fullCenter">
+													<tbody><tr>
+														<td width="100%" height="10">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 18px; line-height: 26px; padding: 6px 5px; font-weight: 400;">
+															<singleline>Pricing 1</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="10">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="24" bgcolor="#dd5555" style="text-align: center; color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 6px 5px; background-color: #dd5555; font-weight: 400;">
+															<singleline>$10,- / Month</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="15">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 1</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 2</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 3</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 4</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="20">									
+														</td>
+													</tr>
+													<!-- Button Center -->
+													<tr>
+														<td align="center" width="100%" style="text-align: center;" class="pad20">
+															<table width="90%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff" style="-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-color: #ffffff;">
+																<tbody><tr>
+																	<td valign="middle" width="100%">
+														
+																		<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+																			<tbody><tr>
+																				<td width="100%" height="2" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+																			</tr>
+																			<tr>
+																				<td valign="middle" align="center" height="30" width="100%" style="text-align: center; color: #dd5555; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; font-weight: 400;" class="fullCenter">
+																					<multiline><a href="#" style="color: #dd5555; text-decoration: none; line-height:26px;">PURCHASE</a></multiline>
+																				</td>
+																			</tr>
+																		</tbody></table> 
+																		
+																	</td>
+																</tr>
+															</tbody></table>
+														</td>
+													</tr>
+													<!-- End Button Center -->
+													<tr>
+														<td width="100%" height="12">									
+														</td>
+													</tr>
+												</tbody></table>
+												
+											</td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+						</tbody></table>
+												
+						<table width="17" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="30">									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<!-- Pricing 2 -->
+						<table width="137" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align: center; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;" class="fullCenter">
+							<tbody><tr>
+								<td width="137" valign="top">
+									
+									<table width="137" border="0" cellpadding="0" cellspacing="0" align="center" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; border-width: 1px; border-style: solid; border-color: #f1f1f1;" class="fullCenter">
+										<tbody><tr>
+											<td width="100%">
+									
+												<table width="137" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#f9f9f9" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; background-color: #f9f9f9;" class="fullCenter">
+													<tbody><tr>
+														<td width="100%" height="10">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 18px; line-height: 26px; padding: 6px 5px; font-weight: 400;">
+															<singleline>Pricing 2</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="10">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="24" bgcolor="#dd5555" style="text-align: center; color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 6px 5px; background-color: #dd5555; font-weight: 400;">
+															<singleline>$10,- / Month</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="15">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 1</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 2</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 3</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 4</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="20">									
+														</td>
+													</tr>
+													<!-- Button Center -->
+													<tr>
+														<td align="center" width="100%" style="text-align: center;" class="pad20">
+															<table width="90%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff" style="-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-color: #ffffff;">
+																<tbody><tr>
+																	<td valign="middle" width="100%">
+														
+																		<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+																			<tbody><tr>
+																				<td width="100%" height="2" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+																			</tr>
+																			<tr>
+																				<td valign="middle" align="center" height="30" width="100%" style="text-align: center; color: #dd5555; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; font-weight: 400;" class="fullCenter">
+																					<multiline><a href="#" style="color: #dd5555; text-decoration: none; line-height:26px;">PURCHASE</a></multiline>
+																				</td>
+																			</tr>
+																		</tbody></table> 
+																		
+																	</td>
+																</tr>
+															</tbody></table>
+														</td>
+													</tr>
+													<!-- End Button Center -->
+													<tr>
+														<td width="100%" height="12">									
+														</td>
+													</tr>
+												</tbody></table>
+												
+											</td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<table width="17" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="30">									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<!-- Pricing 3 -->
+						<table width="137" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align: center; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;" class="fullCenter">
+							<tbody><tr>
+								<td width="137" valign="top">
+									
+									<table width="137" border="0" cellpadding="0" cellspacing="0" align="center" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; border-width: 1px; border-style: solid; border-color: #f1f1f1;" class="fullCenter">
+										<tbody><tr>
+											<td width="100%">
+									
+												<table width="137" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#f9f9f9" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; background-color: #f9f9f9;" class="fullCenter">
+													<tbody><tr>
+														<td width="100%" height="10">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 18px; line-height: 26px; padding: 6px 5px; font-weight: 400;">
+															<singleline>Pricing 3</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="10">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="24" bgcolor="#dd5555" style="text-align: center; color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 6px 5px; background-color: #dd5555; font-weight: 400;">
+															<singleline>$10,- / Month</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="15">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 1</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 2</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 3</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 4</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="20">									
+														</td>
+													</tr>
+													<!-- Button Center -->
+													<tr>
+														<td align="center" width="100%" style="text-align: center;" class="pad20">
+															<table width="90%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff" style="-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-color: #ffffff;">
+																<tbody><tr>
+																	<td valign="middle" width="100%">
+														
+																		<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+																			<tbody><tr>
+																				<td width="100%" height="2" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+																			</tr>
+																			<tr>
+																				<td valign="middle" align="center" height="30" width="100%" style="text-align: center; color: #dd5555; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; font-weight: 400;" class="fullCenter">
+																					<multiline><a href="#" style="color: #dd5555; text-decoration: none; line-height:26px;">PURCHASE</a></multiline>
+																				</td>
+																			</tr>
+																		</tbody></table> 
+																		
+																	</td>
+																</tr>
+															</tbody></table>
+														</td>
+													</tr>
+													<!-- End Button Center -->
+													<tr>
+														<td width="100%" height="12">									
+														</td>
+													</tr>
+												</tbody></table>
+												
+											</td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<table width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="30">									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<!-- Pricing 4 -->
+						<table width="137" border="0" cellpadding="0" cellspacing="0" align="right" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align: center; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;" class="fullCenter">
+							<tbody><tr>
+								<td width="137" valign="top">
+								
+									<table width="137" border="0" cellpadding="0" cellspacing="0" align="center" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; border-width: 1px; border-style: solid; border-color: #f1f1f1;" class="fullCenter">
+										<tbody><tr>
+											<td width="100%">
+									
+												<table width="137" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#f9f9f9" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; background-color: #f9f9f9;" class="fullCenter">
+													<tbody><tr>
+														<td width="100%" height="10">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 18px; line-height: 26px; padding: 6px 5px; font-weight: 400;">
+															<singleline>Pricing 4</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="10">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="24" bgcolor="#dd5555" style="text-align: center; color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 6px 5px; background-color: #dd5555; font-weight: 400;">
+															<singleline>$10,- / Month</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="15">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 1</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 2</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 3</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 4</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="20">									
+														</td>
+													</tr>
+													<!-- Button Center -->
+													<tr>
+														<td align="center" width="100%" style="text-align: center;" class="pad20">
+															<table width="90%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff" style="-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-color: #ffffff;">
+																<tbody><tr>
+																	<td valign="middle" width="100%">
+														
+																		<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+																			<tbody><tr>
+																				<td width="100%" height="2" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+																			</tr>
+																			<tr>
+																				<td valign="middle" align="center" height="30" width="100%" style="text-align: center; color: #dd5555; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; font-weight: 400;" class="fullCenter">
+																					<multiline><a href="#" style="color: #dd5555; text-decoration: none; line-height:26px;">PURCHASE</a></multiline>
+																				</td>
+																			</tr>
+																		</tbody></table> 
+																		
+																	</td>
+																</tr>
+															</tbody></table>
+														</td>
+													</tr>
+													<!-- End Button Center -->
+													<tr>
+														<td width="100%" height="12">									
+														</td>
+													</tr>
+												</tbody></table>
+												
+											</td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table>
+			
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="20"></td>
+				</tr>
+			</tbody></table>
+		
+		</td>
+	</tr>
+</table></layout></repeater>
+
+<repeater><layout label="16"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+						
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td width="100%" align="center">
+					
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="20"></td>
+							</tr>
+						</tbody></table>
+					
+						<!-- Tables -->
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="fullCenter">
+							<tbody><tr>
+								<td width="100%" style="font-size: 13px; color: #777777; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;">	
+									<singleline>3 Tables</singleline>
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table>
+						
+						<!-- Pricing 1 -->
+						<table width="185" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align: center; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;" class="fullCenter">
+							<tbody><tr>
+								<td width="185" valign="top">
+									<!-- Pricing 1 -->
+									
+									<table width="185" border="0" cellpadding="0" cellspacing="0" align="center" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; border-width: 1px; border-style: solid; border-color: #f1f1f1;" class="fullCenter">
+										<tbody><tr>
+											<td width="100%">
+									
+												<table width="185" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#f9f9f9" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; background-color: #f9f9f9;" class="fullCenter">
+													<tbody><tr>
+														<td width="100%" height="10">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 18px; line-height: 26px; padding: 6px 5px; font-weight: 400;">
+															<singleline>Pricing 1</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="10">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="24" bgcolor="#dd5555" style="text-align: center; color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 6px 5px; background-color: #dd5555; font-weight: 400;">
+															<singleline>$10,- / Month</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="15">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 1</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 2</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 3</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 4</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="20">									
+														</td>
+													</tr>
+													<!-- Button Center -->
+													<tr>
+														<td align="center" width="100%" style="text-align: center;" class="pad20">
+															<table width="90%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff" style="-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-color: #ffffff;">
+																<tbody><tr>
+																	<td valign="middle" width="100%">
+														
+																		<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+																			<tbody><tr>
+																				<td width="100%" height="2" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+																			</tr>
+																			<tr>
+																				<td valign="middle" align="center" height="30" width="100%" style="text-align: center; color: #dd5555; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; font-weight: 400;" class="fullCenter">
+																					<multiline><a href="#" style="color: #dd5555; text-decoration: none; line-height:26px;">PURCHASE</a></multiline>
+																				</td>
+																			</tr>
+																		</tbody></table> 
+																		
+																	</td>
+																</tr>
+															</tbody></table>
+														</td>
+													</tr>
+													<!-- End Button Center -->
+													<tr>
+														<td width="100%" height="12">									
+														</td>
+													</tr>
+												</tbody></table>
+												
+											</td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<table width="23" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="30">									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<!-- Pricing 2 -->
+						<table width="185" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align: center; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;" class="fullCenter">
+							<tbody><tr>
+								<td width="185" valign="top">
+									
+									<table width="185" border="0" cellpadding="0" cellspacing="0" align="center" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; border-width: 1px; border-style: solid; border-color: #f1f1f1;" class="fullCenter">
+										<tbody><tr>
+											<td width="100%">
+									
+												<table width="185" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#f9f9f9" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; background-color: #f9f9f9;" class="fullCenter">
+													<tbody><tr>
+														<td width="100%" height="10">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 18px; line-height: 26px; padding: 6px 5px; font-weight: 400;">
+															<singleline>Pricing 2</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="10">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="24" bgcolor="#dd5555" style="text-align: center; color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 6px 5px; background-color: #dd5555; font-weight: 400;">
+															<singleline>$10,- / Month</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="15">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 1</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 2</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 3</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 4</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="20">									
+														</td>
+													</tr>
+													<!-- Button Center -->
+													<tr>
+														<td align="center" width="100%" style="text-align: center;" class="pad20">
+															<table width="90%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff" style="-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-color: #ffffff;">
+																<tbody><tr>
+																	<td valign="middle" width="100%">
+														
+																		<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+																			<tbody><tr>
+																				<td width="100%" height="2" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+																			</tr>
+																			<tr>
+																				<td valign="middle" align="center" height="30" width="100%" style="text-align: center; color: #dd5555; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; font-weight: 400;" class="fullCenter">
+																					<multiline><a href="#" style="color: #dd5555; text-decoration: none; line-height:26px;">PURCHASE</a></multiline>
+																				</td>
+																			</tr>
+																		</tbody></table> 
+																		
+																	</td>
+																</tr>
+															</tbody></table>
+														</td>
+													</tr>
+													<!-- End Button Center -->
+													<tr>
+														<td width="100%" height="12">									
+														</td>
+													</tr>
+												</tbody></table>
+												
+											</td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<table width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="30">									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<!-- Pricing 3 -->
+						<table width="185" border="0" cellpadding="0" cellspacing="0" align="right" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align: center; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;" class="fullCenter">
+							<tbody><tr>
+								<td width="185" valign="top">
+									
+									<table width="185" border="0" cellpadding="0" cellspacing="0" align="center" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; border-width: 1px; border-style: solid; border-color: #f1f1f1;" class="fullCenter">
+										<tbody><tr>
+											<td width="100%">
+									
+												<table width="185" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#f9f9f9" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; background-color: #f9f9f9;" class="fullCenter">
+													<tbody><tr>
+														<td width="100%" height="10">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 18px; line-height: 26px; padding: 6px 5px; font-weight: 400;">
+															<singleline>Pricing 3</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="10">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="24" bgcolor="#dd5555" style="text-align: center; color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 6px 5px; background-color: #dd5555; font-weight: 400;">
+															<singleline>$10,- / Month</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="15">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 1</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 2</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 3</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 4</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="20">									
+														</td>
+													</tr>
+													<!-- Button Center -->
+													<tr>
+														<td align="center" width="100%" style="text-align: center;" class="pad20">
+															<table width="90%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff" style="-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-color: #ffffff;">
+																<tbody><tr>
+																	<td valign="middle" width="100%">
+														
+																		<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+																			<tbody><tr>
+																				<td width="100%" height="2" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+																			</tr>
+																			<tr>
+																				<td valign="middle" align="center" height="30" width="100%" style="text-align: center; color: #dd5555; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; font-weight: 400;" class="fullCenter">
+																					<multiline><a href="#" style="color: #dd5555; text-decoration: none; line-height:26px;">PURCHASE</a></multiline>
+																				</td>
+																			</tr>
+																		</tbody></table> 
+																		
+																	</td>
+																</tr>
+															</tbody></table>
+														</td>
+													</tr>
+													<!-- End Button Center -->
+													<tr>
+														<td width="100%" height="12">									
+														</td>
+													</tr>
+												</tbody></table>
+												
+											</td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table>
+			
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="20"></td>
+				</tr>
+			</tbody></table>
+		
+		</td>
+	</tr>
+</table></layout></repeater>
+
+<repeater><layout label="17"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+						
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td width="100%" align="center">
+					
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="20"></td>
+							</tr>
+						</tbody></table>
+					
+						<!-- Tables -->
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="fullCenter">
+							<tbody><tr>
+								<td width="100%" style="font-size: 13px; color: #777777; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; font-weight: 400;">	
+									<singleline>2 Tables</singleline>
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="30"></td>
+							</tr>
+						</tbody></table>
+						
+						<!-- Pricing 1 -->
+						<table width="290" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align: center; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;" class="fullCenter">
+							<tbody><tr>
+								<td width="290" valign="top">
+									
+									<table width="290" border="0" cellpadding="0" cellspacing="0" align="center" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; border-width: 1px; border-style: solid; border-color: #f1f1f1;" class="fullCenter">
+										<tbody><tr>
+											<td width="100%">
+									
+												<table width="290" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#f9f9f9" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; background-color: #f9f9f9;" class="fullCenter">
+													<tbody><tr>
+														<td width="100%" height="10">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 18px; line-height: 26px; padding: 6px 5px; font-weight: 400;">
+															<singleline>Pricing 1</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="10">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="24" bgcolor="#dd5555" style="text-align: center; color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 6px 5px; background-color: #dd5555; font-weight: 400;">
+															<singleline>$10,- / Month</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="15">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 1</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 2</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 3</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 4</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="20">									
+														</td>
+													</tr>
+													<!-- Button Center -->
+													<tr>
+														<td align="center" width="100%" style="text-align: center;" class="pad20">
+															<table width="90%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff" style="-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-color: #ffffff;">
+																<tbody><tr>
+																	<td valign="middle" width="100%">
+														
+																		<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+																			<tbody><tr>
+																				<td width="100%" height="2" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+																			</tr>
+																			<tr>
+																				<td valign="middle" align="center" height="30" width="100%" style="text-align: center; color: #dd5555; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; font-weight: 400;" class="fullCenter">
+																					<multiline><a href="#" style="color: #dd5555; text-decoration: none; line-height:26px;">PURCHASE</a></multiline>
+																				</td>
+																			</tr>
+																		</tbody></table> 
+																		
+																	</td>
+																</tr>
+															</tbody></table>
+														</td>
+													</tr>
+													<!-- End Button Center -->
+													<tr>
+														<td width="100%" height="12">									
+														</td>
+													</tr>
+												</tbody></table>
+												
+											</td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<table width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="30">									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<!-- Pricing 2 -->
+						<table width="290" border="0" cellpadding="0" cellspacing="0" align="right" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align: center; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;" class="fullCenter">
+							<tbody><tr>
+								<td width="290" valign="top">
+									
+									<table width="290" border="0" cellpadding="0" cellspacing="0" align="center" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; border-width: 1px; border-style: solid; border-color: #f1f1f1;" class="fullCenter">
+										<tbody><tr>
+											<td width="100%">
+									
+												<table width="290" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#f9f9f9" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; background-color: #f9f9f9;" class="fullCenter">
+													<tbody><tr>
+														<td width="100%" height="10">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 18px; line-height: 26px; padding: 6px 5px; font-weight: 400;">
+															<singleline>Pricing 2</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="10">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="24" bgcolor="#dd5555" style="text-align: center; color: #ffffff; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 6px 5px; background-color: #dd5555; font-weight: 400;">
+															<singleline>$10,- / Month</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="15">									
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 1</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 2</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 3</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" style="text-align: center; color: #080808; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 14px; line-height: 22px; padding: 2px 5px; font-weight: 400;">
+															<singleline>Option 4</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="20">									
+														</td>
+													</tr>
+													<!-- Button Center -->
+													<tr>
+														<td align="center" width="100%" style="text-align: center;" class="pad20">
+															<table width="90%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff" style="-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-color: #ffffff;">
+																<tbody><tr>
+																	<td valign="middle" width="100%">
+														
+																		<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+																			<tbody><tr>
+																				<td width="100%" height="2" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+																			</tr>
+																			<tr>
+																				<td valign="middle" align="center" height="30" width="100%" style="text-align: center; color: #dd5555; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 13px; font-weight: 400;" class="fullCenter">
+																					<multiline><a href="#" style="color: #dd5555; text-decoration: none; line-height:26px;">PURCHASE</a></multiline>
+																				</td>
+																			</tr>
+																		</tbody></table> 
+																		
+																	</td>
+																</tr>
+															</tbody></table>
+														</td>
+													</tr>
+													<!-- End Button Center -->
+													<tr>
+														<td width="100%" height="12">									
+														</td>
+													</tr>
+												</tbody></table>
+												
+											</td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+						</tbody></table>
+						
+					</td>
+				</tr>
+			</tbody></table>
+			
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="30"></td>
+				</tr>
+			</tbody></table>
+		
+		</td>
+	</tr>
+</table></layout></repeater>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff"> 
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+		
+			<!-- Divider -->
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="20"></td>
+				</tr>
+				<tr>
+					<td width="100%" height="1" bgcolor="#f1f1f1" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="100%" height="20"></td>
+				</tr>
+			</tbody></table><!-- End Divider -->
+			
+		</td>
+	</tr>
+</tbody></table>
+
+<repeater><layout label="18"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+		
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="30"></td>
+				</tr>
+			</tbody></table>
+		
+			<!-- Start Voucher -->
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; border-width: 1px; border-style: solid; border-color: #f1f1f1;" class="full">
+				<tbody><tr>
+					<td width="100%">
+			
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#f9f9f9" style="-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; background-color: #f9f9f9;" class="full">
+							<tbody><tr>
+								<td width="100%">
+									
+									<!-- Headline Voucher -->
+									<table width="512" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+										<tbody><tr>
+											<td width="100%" height="40"></td>
+										</tr>
+										<tr>
+											<td valign="middle" width="100%" style="text-align: center; color: #777777; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 21px; line-height: 26px; font-weight: 400;" class="fullCenter">
+												<singleline>Voucher: by Customers Request</singleline>
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="35"></td>
+										</tr>
+									</tbody></table>
+									
+									<table width="512" border="0" cellpadding="0" cellspacing="0" align="center" style="border-width: 1px; border-style: solid; border-color: #f1f1f1;" class="fullCenter">
+										<tbody><tr>
+											<td width="100%" class="voucherLogo">
+												
+												<table width="240" border="0" cellpadding="0" cellspacing="0" align="left" style="text-align: left;" class="fullCenter">
+													<tbody><tr>
+														<td width="100%" height="20"></td>
+													</tr>
+													<tr>
+														<td valign="top" width="100%" style="font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 21px; line-height: 26px; padding-left: 30px; font-weight: 400;" class="fullCenter">
+															<a href="#" style="text-decoration: none;"><img src="images/voucher_logo.png" editable="true" width="100" alt="0" border="0"></a>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="15"></td>
+													</tr>
+													<tr>
+														<td width="100%" height="1" class="fullOne" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+													</tr>
+												</tbody></table>
+												
+												<table width="250" border="0" cellpadding="0" cellspacing="0" align="right" style="border-width: 0px 0px 0px 1px; border-style: solid; border-color: #f1f1f1;" class="voucher1">
+													<tbody><tr>
+														<td width="100%" height="20"></td>
+													</tr>
+													<tr>
+														<td width="100%" valign="top" style="font-size: 14px; color: #777777; text-align: left; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; padding-left: 20px; padding-right: 20px; line-height: 20px; font-weight: 400;" class="voucher1">	
+															<singleline><b>Voucher No:</b> 12345</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="20" style="border-width: 0px 0px 1px 0px; border-style: solid; border-color: #f1f1f1;"></td>
+													</tr>
+													<tr>
+														<td width="100%" height="20"></td>
+													</tr>
+													<tr>
+														<td width="100%" valign="top" style="font-size: 14px; color: #777777; text-align: left; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; padding-left: 20px;padding-right: 20px; line-height: 20px; font-weight: 400;" class="voucher1">	
+															<b>Security Code:</b> abcdef
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="20"></td>
+													</tr>
+												</tbody></table>
+											</td>
+										</tr>
+									</tbody></table>
+									
+									<table width="512" border="0" cellpadding="0" cellspacing="0" align="center" class="fullCenter">
+										<tbody><tr>
+											<td width="100%">
+												
+												<table width="512" border="0" cellpadding="0" cellspacing="0" align="left" style="border-width: 0px 1px 0px 1px; border-style: solid; border-color: #f1f1f1;" class="full">
+													<tbody><tr>
+														<td width="100%" height="20"></td>
+													</tr>
+													<tr>
+														<td width="100%" valign="top" style="font-size: 14px; color: #777777; text-align: left; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; padding-left: 20px; padding-right: 20px; text-transform: uppercase; line-height: 20px; font-weight: 400;" class="voucher1">	
+															<singleline>Lorem ipsum dolor sit amet - consectetur adipisicing elit</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="20"></td>
+													</tr>
+												</tbody></table>
+											</td>
+										</tr>
+									</tbody></table>
+									
+									<table width="512" border="0" cellpadding="0" cellspacing="0" align="center" style="border-width: 1px; border-style: solid; border-color: #f1f1f1;" class="fullCenter">
+										<tbody><tr>
+											<td width="100%">
+												
+												<table width="240" border="0" cellpadding="0" cellspacing="0" align="left" class="fullCenter">
+													<tbody><tr>
+														<td width="100%" height="20"></td>
+													</tr>
+													<tr>
+														<td width="100%" valign="top" style="font-size: 14px; color: #777777; text-align: left; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; padding-left: 20px; padding-right: 20px; line-height: 20px; font-weight: 400;" class="voucher1">	
+															<multiline><b>Recipients:</b><br>
+															<a href="#" style="text-decoration: none; color: #777777;">support@dynamicxx.net</a>
+															<br><br>
+															<b>Expires on: </b><br>December 26th, 2015</multiline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="20"></td>
+													</tr>
+													<tr>
+														<td width="100%" height="1" class="fullOne" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+													</tr>
+												</tbody></table>
+												
+												<table width="250" border="0" cellpadding="0" cellspacing="0" align="right" class="voucher1" style="border-width: 0px 0px 0px 1px; border-style: solid; border-color: #f1f1f1;">
+													<tbody><tr>
+														<td width="100%" height="20"></td>
+													</tr>
+													<tr>
+														<td width="100%" valign="top" style="font-size: 14px; color: #777777; text-align: left; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; padding-left: 20px; padding-right: 20px; line-height: 20px; font-weight: 400;" class="voucher1">	
+															<multiline><b>Redeem at: </b> <br>Villars Gryon
+															<br><br>
+															
+															Voucher must be exchanged by forfait at cashier Mr. Do</multiline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="20"></td>
+													</tr>
+												</tbody></table>
+												
+											</td>
+										</tr>
+									</tbody></table>
+									
+									<table width="512" border="0" cellpadding="0" cellspacing="0" align="center" style="border-width: 0px 1px 1px 1px; border-style: solid; border-color: #f1f1f1;" class="fullCenter">
+										<tbody><tr>
+											<td width="100%">
+												
+												<table width="240" border="0" cellpadding="0" cellspacing="0" align="left" class="fullCenter">
+													<tbody><tr>
+														<td width="100%" height="20"></td>
+													</tr>
+													<tr>
+														<td width="100%" valign="top" style="font-size: 14px; color: #777777; text-align: left; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; padding-left: 20px; padding-right: 20px; line-height: 20px; font-weight: 400;" class="voucher1">	
+															<multiline><b>Terms and Conditions:</b>
+															<br>- Exchange in the right place
+															<br>- Be gentle
+															<br>No cashback</multiline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="20"></td>
+													</tr>
+													<tr>
+														<td width="100%" height="1" class="fullOne" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+													</tr>
+												</tbody></table>
+												
+												<table width="250" border="0" cellpadding="0" cellspacing="0" align="right" style="border-width: 0px 0px 0px 1px; border-style: solid; border-color: #f1f1f1;" class="voucher1">
+													<tbody><tr>
+														<td width="100%" height="20"></td>
+													</tr>
+													<tr>
+														<td width="100%" valign="top" style="font-size: 14px; color: #777777; text-align: left; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; padding-left: 20px; padding-right: 20px; line-height: 20px; font-weight: 400;" class="voucher1">	
+															<multiline><b>Contacts:</b>
+															<br>+41 466 20566
+															<br>West Coast Area, 34
+															<br>1356 Villars</multiline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="20"></td>
+													</tr>
+												</tbody></table>
+												
+											</td>
+										</tr>
+									</tbody></table>
+									
+									<table width="512" border="0" cellpadding="0" cellspacing="0" align="center" class="fullCenter">
+										<tbody><tr>
+											<td width="100%">
+												
+												<table width="512" border="0" cellpadding="0" cellspacing="0" align="left" style="border-width: 0px 1px 1px 1px; border-style: solid; border-color: #f1f1f1;" class="full">
+													<tbody><tr>
+														<td width="100%" height="20"></td>
+													</tr>
+													<tr>
+														<td width="100%" valign="top" style="font-size: 14px; color: #777777; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; padding-left: 20px; padding-right: 20px; line-height: 20px; font-weight: 400;">	
+															<singleline>Thank you for using our service!</singleline>
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" height="20"></td>
+													</tr>
+												</tbody></table>
+											</td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="40"></td>
+							</tr>
+						</tbody></table>
+																	
+					</td>
+				</tr>
+			</tbody></table><!-- End Voucher -->
+			
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="60">							
+					</td>
+				</tr>
+			</tbody></table>
+		
+		</td>
+	</tr>
+</table></layout></repeater>
+
+<repeater><layout label="19"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#f9f9f9" style="background-color: #f9f9f9;" class="full">
+	<tbody><tr>
+		<td width="100%" height="1" bgcolor="#f1f1f1" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="100%" valign="top" align="center">
+		
+			<!-- Start Subscribe Wrapper -->
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td width="100%" height="50"></td>
+				</tr>
+				<tr>
+					<td width="100%" align="center">
+						
+						<!-- Footer Logo + Text -->
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="fullCenter" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+							<tbody><tr>
+								<td valign="middle" width="100%" style="text-align: center;" class="fullCenter">
+									<a href="#" style="text-decoration: none;"><img src="images/footer_logo.png" editable="true" width="70" height="auto" style="width: 70px; height: auto;" alt="" border="0"></a> 
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="5"></td>
+							</tr>
+							<tr>
+								<td width="100%" style="font-size: 16px; color: #333333; text-align: center; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: top; letter-spacing: 4px; font-weight: 400;">	
+									<singleline>STAY TUNED</singleline>
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="40">									
+								</td>
+							</tr>
+						</tbody></table>
+														
+					</td>
+				</tr>
+			</tbody></table><!-- End Footer Logo + Text -->
+			
+			<!-- Divider -->
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="1" bgcolor="#ffffff" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+				</tr>
+			</tbody></table><!-- End Divider -->
+			
+			<!-- Start Social Icons -->
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td width="100%" height="12"></td>
+				</tr>
+				<tr>
+					<td width="100%">
+					
+						<table width="135" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="1" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+							</tr>
+						</tbody></table>
+						
+						<!-- Social Icons Left -->
+						<table width="174" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="icon">
+							<tbody><tr>
+								<td width="100%" style="text-align: center;">
+									<table width="174" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+										<tbody><tr>
+											<td width="15" class="w40"></td>
+											<td width="35" style="text-align: center;">
+												<a href="#" style="text-decoration: none;">
+													<img src="images/social_icon1.png" editable="true" alt="" border="0" width="35" height="auto" style="width: 35px; height: auto;">
+												</a>
+											</td>
+											<td width="15" class="erase"></td>
+											<td width="35" style="text-align: center;">
+												<a href="#" style="text-decoration: none;">
+													<img src="images/social_icon2.png" editable="true" alt="" border="0" width="35" height="auto" style="width: 35px; height: auto;">
+												</a>
+											</td>
+											<td width="15" class="erase"></td>
+											<td width="35" style="text-align: center;">
+												<a href="#" style="text-decoration: none;">
+													<img src="images/social_icon3.png" editable="true" alt="" border="0" width="35" height="auto" style="width: 35px; height: auto;">
+												</a>
+											</td>
+											<td width="8" class="w40"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<table width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="10">									
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<!-- Social Icons Right -->
+						<table width="174" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="icon">
+							<tbody><tr>
+								<td width="100%" style="text-align: center;">
+									<table width="174" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+										<tbody><tr>
+											<td width="7" class="w40"></td>
+											<td width="35" style="text-align: center;">
+												<a href="#" style="text-decoration: none;">
+													<img src="images/social_icon4.png" editable="true" alt="" border="0" width="35" height="auto" style="width: 35px; height: auto;">
+												</a>
+											</td>
+											<td width="15" class="erase"></td>
+											<td width="35" style="text-align: center;">
+												<a href="#" style="text-decoration: none;">
+													<img src="images/social_icon5.png" editable="true" alt="" border="0" width="35" height="auto" style="width: 35px; height: auto;">
+												</a>
+											</td>
+											<td width="15" class="erase"></td>
+											<td width="35" style="text-align: center;">
+												<a href="#" style="text-decoration: none;">
+													<img src="images/social_icon6.png" editable="true" alt="" border="0" width="35" height="auto" style="width: 35px; height: auto;">
+												</a>
+											</td>
+											<td width="15" class="w40"></td>
+										</tr>
+									</tbody></table>
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<table width="100" border="0" cellpadding="0" cellspacing="0" align="right" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+							<tbody><tr>
+								<td width="100%" height="1" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+							</tr>
+						</tbody></table>
+														
+					</td>
+				</tr>
+			</tbody></table><!-- End Social Icons -->
+			
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="12">									
+					</td>
+				</tr>
+			</tbody></table>
+			
+		</td>
+	</tr>
+</table></layout></repeater>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#ffffff">
+	<tbody><tr>
+		<td width="100%" valign="top" align="center">
+		
+			<!-- Start Footer Wrapper -->
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td width="100%" height="30"></td>
+				</tr>
+				<tr>
+					<td width="100%" align="center">
+						
+						<!-- Copyright -->
+						<table width="180" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
+							<tbody><tr>
+								<td height="60" width="100%" style="font-size: 12px; color: #777777; text-align: left; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; line-height: 24px; vertical-align: middle; font-weight: 400;" class="textCenter">	
+									<singleline>Copyright © 2015 Pure</singleline>
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<table width="370" border="0" cellpadding="0" cellspacing="0" align="right" style="text-align: right; font-family: Helvetica, Arial, sans-serif, 'Open Sans'; font-size: 12px; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">	
+							<tbody><tr>
+								<td width="25" class="erase"></td>
+								<td height="60" valign="middle" style="font-family: Helvetica, Arial, sans-serif, 'Open Sans'; color: #777777; font-weight: 400;">
+									<unsubscribe style="text-decoration: none; color: #777777;">Unsubscribe</unsubscribe>
+								</td>
+								<td width="25" class="erase"></td>
+								<td height="60" valign="middle" style="font-family: Helvetica, Arial, sans-serif, 'Open Sans'; color: #777777; font-weight: 400;">
+									<multiline><a href="#" style="text-decoration: none; color: #777777;" class="underline">Privacy</a></multiline>
+								</td>
+								<td height="60" valign="middle" style="font-family: Helvetica, Arial, sans-serif, 'Open Sans'; color: #777777; font-weight: 400;">
+									<multiline><a href="#" style="text-decoration: none; color: #dd5555;" class="underline">support@dynamicxx.com</a></multiline>
+								</td>
+							</tr>
+						</tbody></table>
+														
+					</td>
+				</tr>
+			</tbody></table><!-- End Footer -->
+			
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+				<tbody><tr>
+					<td width="100%" height="30">									
+					</td>
+				</tr>
+				<tr>
+					<td width="100%" height="1" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+				</tr>
+			</tbody></table>
+			
+		</td>
+	</tr>
+</tbody></table>
+</body>
+</html>

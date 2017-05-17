@@ -1,0 +1,146 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,900);
+body{
+	padding: 0px;
+	margin: 0px;
+	font-size: 16px;
+	color: #333333;
+	font-family: 'Merriweather';
+}
+p{
+	margin: 0px;
+	line-height: 29px;
+}
+a{
+	text-decoration: none;
+	color: #0099e5;
+	-webkit-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+}
+a:hover{
+	color: #004f76;
+}
+h2{
+	font-size: 26px;
+	color: #171717;
+	margin: 0 0 22px;
+}
+div.div{
+	height: 1px;
+	background: #f1f1f1;
+	padding: 0 !important;
+	margin-top: 62px;
+}
+div.img{
+	line-height: 0px;
+	border: 1px solid #eeeff2;
+	background: #f7f8fa;
+	padding: 49px;
+	position: relative;
+	right: 24px;
+	margin: 26px 0;
+}
+div.img img{
+	width: 100%;
+	height: auto;
+}
+ol{
+	padding: 0px;
+	width: 100%;
+	padding-left: 24px;
+}
+ol li{
+	line-height: 29px;
+}
+/*Start Top*/
+#top{
+	height: 30px;
+	background: #222222;
+	color: #fff;
+	padding: 15px 60px;
+	line-height: 30px;
+}
+#top a,
+#top span{
+	display: inline-block;
+	float: left;
+	font-size: 17px;
+	color: #fff;
+}
+#top a{
+	float: right;
+	padding: 0 14px;
+	background: #34bf49;
+	font-size: 13px;
+	font-weight: 900;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-text-shadow: 1px 1px #2ca33e;
+	-moz-text-shadow: 1px 1px #2ca33e;
+	-ms-text-shadow: 1px 1px #2ca33e;
+	-o-text-shadow: 1px 1px #2ca33e;
+	text-shadow: 1px 1px #2ca33e;
+}
+#top a:hover{
+	background: #41cb56;
+}
+/*End Top*/
+
+/*Start Sidebar*/
+div.sidbar{
+	width: 430px;
+	float: left;
+}
+div.sidbar ul.menu{
+	position: fixed;
+	left: 60px;
+	top: 100px;
+	width: 219px;
+	border: 1px solid #eeeff2;
+	background: #f7f8fa;
+	padding: 32px 46px;
+	margin: 0px;
+	list-style: none;
+}
+div.sidbar ul.menu li{
+	line-height: 38px;
+	font-size: 14px;
+}
+div.sidbar ul.menu li a.active{
+	font-weight: 900;
+}
+/*End Sidebar*/
+
+/*Start Content*/
+div.content{
+	margin-left:430px;
+	padding: 12px 0 60px;
+	width: 900px;
+}
+div.content > div{
+	padding-top: 62px;
+}
+span{
+	text-overflow: ellipsis;
+}
+/*End Content*/
+
+@media screen and (max-width: 1500px){
+
+	div.content{
+		width: auto;
+		margin-right: 50px;
+		overflow: hidden;
+	}
+}
+@media screen and (max-width: 700px){
+	div.sidbar{
+		display: none;
+	}
+	div.content{
+		margin-left: 50px;
+	}
+}

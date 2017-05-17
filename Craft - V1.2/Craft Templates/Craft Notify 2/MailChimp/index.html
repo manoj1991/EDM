@@ -1,0 +1,550 @@
+
+		
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<title>Craft Notify 2</title>
+
+<style type="text/css">
+
+div, p, a, li, td { -webkit-text-size-adjust:none; }
+
+*{
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.ReadMsgBody
+{width: 100%; background-color: #ffffff;}
+.ExternalClass
+{width: 100%; background-color: #ffffff;}
+body{width: 100%; height: 100%; margin:0; padding:0; -webkit-font-smoothing: antialiased;}
+html{width: 100%; }
+
+@font-face {font-family: 'proxima_novalight';src: url('http://www.rocketway.net/themebuilder/products/font/proximanova-light-webfont.eot');src: url('http://www.rocketway.net/themebuilder/products/font/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),url('http://www.rocketway.net/themebuilder/products/font/proximanova-light-webfont.woff') format('woff'),url('http://www.rocketway.net/themebuilder/products/font/proximanova-light-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+
+@font-face {font-family: 'proxima_nova_rgregular'; src: url('http://www.rocketway.net/themebuilder/products/font/proximanova-regular-webfont.eot');src: url('http://www.rocketway.net/themebuilder/products/font/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),url('http://www.rocketway.net/themebuilder/products/font/proximanova-regular-webfont.woff') format('woff'),url('http://www.rocketway.net/themebuilder/products/font/proximanova-regular-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+
+@font-face {font-family: 'proxima_novasemibold';src: url('http://www.rocketway.net/themebuilder/products/font/proximanova-semibold-webfont.eot');src: url('http://www.rocketway.net/themebuilder/products/font/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),url('http://www.rocketway.net/themebuilder/products/font/proximanova-semibold-webfont.woff') format('woff'),url('http://www.rocketway.net/themebuilder/products/font/proximanova-semibold-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+    
+@font-face {font-family: 'proxima_nova_rgbold';src: url('http://www.rocketway.net/themebuilder/products/font/proximanova-bold-webfont.eot');src: url('http://www.rocketway.net/themebuilder/products/font/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),url('http://www.rocketway.net/themebuilder/products/font/proximanova-bold-webfont.woff') format('woff'),url('http://www.rocketway.net/themebuilder/products/font/proximanova-bold-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+	
+@font-face {font-family: 'proxima_novathin';src: url('http://www.rocketway.net/themebuilder/products/font/proximanova-thin-webfont.eot');src: url('http://www.rocketway.net/themebuilder/products/font/proximanova-thin-webfont.eot?#iefix') format('embedded-opentype'),url('http://www.rocketway.net/themebuilder/products/font/proximanova-thin-webfont.woff') format('woff'),url('http://www.rocketway.net/themebuilder/products/font/proximanova-thin-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+
+@font-face {font-family: 'proxima_novablack';src: url('http://www.rocketway.net/themebuilder/products/font/proximanova-black-webfont.eot');src: url('http://www.rocketway.net/themebuilder/products/font/proximanova-black-webfont.eot?#iefix') format('embedded-opentype'),url('http://www.rocketway.net/themebuilder/products/font/proximanova-black-webfont.woff') format('woff'),url('http://www.rocketway.net/themebuilder/products/font/proximanova-black-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+    
+@font-face {font-family: 'proxima_novaextrabold';src: url('http://www.rocketway.net/themebuilder/products/font/proximanova-extrabold-webfont.eot');src: url('http://www.rocketway.net/themebuilder/products/font/proximanova-extrabold-webfont.eot?#iefix') format('embedded-opentype'),url('http://www.rocketway.net/themebuilder/products/font/proximanova-extrabold-webfont.woff2') format('woff2'),url('http://www.rocketway.net/themebuilder/products/font/proximanova-extrabold-webfont.woff') format('woff'),url('http://www.rocketway.net/themebuilder/products/font/proximanova-extrabold-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}   
+
+
+p {padding: 0!important; margin-top: 0!important; margin-right: 0!important; margin-bottom: 0!important; margin-left: 0!important; }
+
+.hover:hover {opacity:0.85;filter:alpha(opacity=85);}
+.underline:hover {text-decoration: underline!important;}
+.brightness:hover {filter: brightness(30%);-webkit-filter: brightness(30%);-moz-filter: brightness(30%);-o-filter: brightness(30%);-ms-filter: brightness(30%);}
+.jump:hover {opacity:0.75;filter:alpha(opacity=75);padding-top: 10px!important;}
+
+a#rotator img {
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out; 
+-o-transition: all 1s ease-in-out; 
+-ms-transition: all 1s ease-in-out; 
+}
+
+a#rotator img:hover { 
+-webkit-transform: rotate(360deg); 
+-moz-transform: rotate(360deg); 
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg); 
+}
+
+
+.logo img {width: 100px; height: auto;}
+.icon75 img {width: 75px; height: auto;}
+.image250 img {width: 250px; height: auto;}
+.image280 img {width: 280px; height: auto;}
+.image280 img:hover {filter: brightness(30%);-webkit-filter: brightness(30%);-moz-filter: brightness(30%);-o-filter: brightness(30%);-ms-filter: brightness(30%);}
+.image600 img {width: 600px; height: auto;}
+.image600 img:hover {filter: brightness(30%);-webkit-filter: brightness(30%);-moz-filter: brightness(30%);-o-filter: brightness(30%);-ms-filter: brightness(30%);}
+.image298 img {width: 298px; height: auto;}
+.image298 img:hover {filter: brightness(30%);-webkit-filter: brightness(30%);-moz-filter: brightness(30%);-o-filter: brightness(30%);-ms-filter: brightness(30%);}
+.socialIcon27 img {width: 27px; height: auto;}
+.footerIcons28 img {width: 28px; height: auto;}
+#logoFooter img {width: 98px; height: auto;}
+.image185 img {width: 185px; height: auto;}
+.icon40 img {width: 40px; height: auto;}
+.avatar84 img {width: 84px; height: auto;}
+
+</style>
+
+
+
+<!-- @media only screen and (max-width: 640px) 
+		   {*/
+		   -->
+<style type="text/css"> @media only screen and (max-width: 640px){
+		body{width:auto!important;}
+		table[class=full] {width: 100%!important; clear: both; }
+		table[class=mobile] {width: 100%!important; padding-left: 20px; padding-right: 20px; clear: both; }
+		table[class=fullCenter] {width: 100%!important; text-align: center!important; clear: both; }
+		td[class=fullCenter] {width: 100%!important; text-align: center!important; clear: both; }
+		body[yahoo] .erase {display: none;}
+		body[yahoo] .w20 {width: 20px!important}
+		body[yahoo] .h50 {height: 50px!important}
+		body[yahoo] .buttonScale {float: none!important; text-align: center!important; display: inline-block!important; clear: both;}
+		td[class=image298] img {width: 100%!important; text-align: center!important; clear: both; }
+		.image600 img {width: 100%!important; height: auto!important;}
+		
+} </style>
+<!--
+
+@media only screen and (max-width: 479px) 
+		   {
+		   -->
+<style type="text/css"> @media only screen and (max-width: 479px){
+		body{width:auto!important;}
+		table[class=full] {width: 100%!important; clear: both; }
+		table[class=mobile] {width: 100%!important; padding-left: 20px; padding-right: 20px; clear: both; }
+		table[class=fullCenter] {width: 100%!important; text-align: center!important; clear: both; }
+		td[class=fullCenter] {width: 100%!important; text-align: center!important; clear: both; }
+		body[yahoo] .erase {display: none;}
+		body[yahoo] .w20 {width: 20px!important}
+		body[yahoo] .h50 {height: 50px!important}
+		body[yahoo] .buttonScale {float: none!important; text-align: center!important; display: inline-block!important; clear: both;}
+		.eraseMob {display: none!important;}
+		.font44 {font-size: 38px!important; line-height: 42px!important;}
+		.break {display: block!important;}
+		.image600 img {width: 100%!important; height: auto!important;}
+		
+} </style> 
+
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" yahoo="fix">
+
+<div class="ui-sortable" id="sort_them">
+<!-- Section 1 Top Header & navigation -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full"  bgcolor="#272c2d"style="background-color: rgb(39, 44, 45);">
+	<tbody><tr mc:repeatable>
+		<td width="100%" valign="top" align="center">
+		<div mc:hideable>
+		
+			<!-- Nav Mobile Wrapper -->
+			<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td width="100%" align="center">
+					
+						<!-- Start Nav -->
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tbody><tr>
+								<td width="100%" height="10">
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" valign="middle" class="logo" align="center">
+								
+									<!-- Logo -->
+									<table width="100" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
+										<tbody><tr>
+											<td height="55" valign="middle" align="center" width="100%" class="fullCenter" ><a href="#"> 
+												<img src="images/logo.png" width="100" alt="" border="0" mc:edit="1" class="hover"></a>
+											</td>
+										</tr>
+									</tbody></table>
+								
+									<!-- Nav --> 
+									<table width="400" border="0" cellpadding="0" cellspacing="0" align="right" style="text-align: right; font-size: 13px; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">	
+										<tbody><tr>
+											<td height="55" valign="middle" width="100%" style="font-family: Helvetica, Arial, sans-serif; color: rgb(255, 255, 255);"mc:edit="2">
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica; font-weight: normal;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(255, 255, 255);"class="underline" >Home</a><!--[if !mso]><!--></span><!--<![endif]-->
+												 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica; font-weight: normal;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(255, 255, 255);"class="underline" >Store</a><!--[if !mso]><!--></span><!--<![endif]-->&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica; font-weight: normal;"><!--<![endif]--><a href="#" style="text-decoration: none; color: rgb(255, 255, 255);"class="underline" >Support</a><!--[if !mso]><!--></span><!--<![endif]-->
+												 
+											</td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+							<tr>
+								<td width="100%" height="10">
+								</td>
+							</tr>
+						</tbody></table>
+						<!-- End Nav -->
+					
+					</td>
+				</tr>
+			</tbody></table><!-- End Nav Mobile Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table>
+
+<!-- Header -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" bgcolor="#414747" style="background-color: rgb(65, 71, 71);">
+	<tbody><tr mc:repeatable>
+		<td align="center" style="background-image: url('images/header_bg.jpg'); -webkit-background-size: cover; background-size: cover; background-color: rgb(65, 71, 71); background-position: center center; background-repeat: no-repeat;" id="BGheaderChange" bgcolor="#414747">
+		<div mc:hideable> 
+		
+			<!-- Wrapper -->
+			<table class="mobile" align="center" border="0" width="100%" cellpadding="0" cellspacing="0">
+				<tbody><tr>
+					<td align="center">
+					
+						<!-- Nav Mobile Wrapper -->
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+							<tbody><tr>
+								<td width="100%" align="center">
+								
+									<!-- SORTABLE -->
+									<div class="sortable_inner ui-sortable">
+								
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" width="600" cellpadding="0" cellspacing="0" object="drag-module-small">
+										<tbody><tr>
+											<td height="41" width="100%">
+											</td>
+										</tr>
+									</tbody></table><!-- End Space -->
+									
+									<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" width="600" cellpadding="0" cellspacing="0" object="drag-module-small">
+										<tbody><tr>
+											<td height="40" width="100%">
+											</td>
+										</tr>
+									</tbody></table><!-- End Space -->
+									
+									</div>
+								
+									<table width="310" border="0" cellpadding="0" cellspacing="0" align="left" class="full" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+										<tbody><tr>
+											<td width="100%" align="center">
+											
+											<!-- SORTABLE -->
+											<div class="sortable_inner ui-sortable">
+						
+												<!-- Text -->
+												<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter" border="0" width="310" cellpadding="0" cellspacing="0" object="drag-module-small">
+													<tbody><tr>
+														<td align="center" width="100%" style="font-size: 32px; color: rgb(255, 255, 255); text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 36px; font-weight: bold; vertical-align: top; text-transform: uppercase;"class="fullCenter" mc:edit="4">
+															
+																 
+																	<span style="font-weight: bold;" class="font44"><!--[if !mso]><!--><span style="font-family: 'proxima_novaextrabold', 'proxima_nova_rgbold', Helvetica; font-weight:normal; word-break: break-word;"><!--<![endif]-->We help you to achieve success<!--<!--[if !mso]--><!----><!--<![endif]-->
+																
+															
+														</span></span></td>
+													</tr>
+												</tbody></table>
+												
+												<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter" border="0" width="310" cellpadding="0" cellspacing="0" object="drag-module-small">
+													<tbody><tr>
+														<td height="30" width="100%"></td>
+													</tr>
+												</tbody></table>
+												
+												<!-- Text -->
+												<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter" border="0" width="310" cellpadding="0" cellspacing="0" object="drag-module-small">
+													<tbody><tr>
+														<td align="center" width="100%" style="font-size: 14px; color: rgb(255, 255, 255); text-align: left; font-family: Helvetica, Arial, sans-serif; line-height: 22px; font-weight: normal; vertical-align: top;"class="fullCenter" mc:edit="5_8928373">
+															
+																
+																	<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', font-weight:normal;"><!--<![endif]--> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. <!--[if !mso]><!--></span><!--<![endif]-->
+																
+															
+														</td>
+													</tr>
+												</tbody></table>
+												
+												<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter" border="0" width="310" cellpadding="0" cellspacing="0" object="drag-module-small">
+													<tbody><tr>
+														<td height="40" width="100%"></td>
+													</tr>
+												</tbody></table>
+												
+												<table width="310" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter" object="drag-module-small">
+													<tbody><tr>
+														<td width="100%" align="center">
+														
+															<!-- Centered Buttons -->
+															<!--[if !mso]><!--><table border="0" cellpadding="0" cellspacing="0" align="left" class="buttonScale"><!--<![endif]-->
+															<!--[if mso]><v:shape><table width="58%" border="0" cellpadding="0" cellspacing="0" align="center""></v:shape><![endif]-->
+																<tbody><tr>
+																	<td width="100%" align="center" class="buttonScale">
+																
+																
+																		<table border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="buttonScale">
+																			<tbody><tr>
+																				<td align="center" height="38" bgcolor="#b3d3d6"style="padding-left: 25px; padding-right: 25px; font-weight: bold; font-family: Helvetica, Arial, sans-serif; color: rgb(81, 89, 91); text-transform: uppercase; background-color: rgb(179, 211, 214);" mc:edit="6"class="buttonScale">
+																
+																					<!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]--> 
+																					
+																					<a href="#"  style="color: rgb(39, 44, 45); font-size: 12px; text-decoration: none; line-height: 38px; width: 100%;">about us</a> 
+																					
+																					<!--[if !mso]><!--></span><!--<![endif]-->
+																				</td>
+																			</tr>
+																		</tbody></table>
+																		
+																		<!-- Space -->
+																		<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="buttonScale" align="left" border="0" cellpadding="0" cellspacing="0">
+																			<tbody><tr>
+																				<td width="100%">
+																				
+																					<table width="25" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="w20" align="center" border="0" cellpadding="0" cellspacing="0">
+																						<tbody><tr>
+																							<td height="30" width="100%"></td>
+																						</tr>
+																					</tbody></table>
+																					
+																				</td>
+																			</tr>
+																		</tbody></table>
+																
+																		<table border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="buttonScale">
+																			<tbody><tr>
+																				<td align="center" height="36" style="padding-left: 25px; padding-right: 25px; font-weight: bold; font-family: Helvetica, Arial, sans-serif; color: rgb(255, 255, 255); text-transform: uppercase; border: 1px solid rgb(255, 255, 255);" mc:edit="7"class="buttonScale">
+																
+																					<!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]--> 
+																					
+																					<a href="#"  style="color: rgb(255, 255, 255); font-size: 12px; text-decoration: none; line-height: 36px; width: 100%;">hire us</a>
+																					<!--[if !mso]><!--></span><!--<![endif]-->
+																				</td>
+																			</tr>
+																		</tbody></table>
+														
+																	</td>
+																</tr>
+															</tbody></table>
+																
+														</td>
+													</tr>
+												</tbody></table>
+												
+												<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter" border="0" width="310" cellpadding="0" cellspacing="0" object="drag-module-small">
+													<tbody><tr>
+														<td height="30" width="100%"></td>
+													</tr>
+												</tbody></table>
+
+												
+												</div>
+												
+											</td>
+										</tr>
+									</tbody></table>
+									
+									
+									<table width="270" border="0" cellpadding="0" cellspacing="0" align="right" class="full" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+										<tbody><tr>
+											<td width="100%" align="center">
+									
+												<!-- SORTABLE -->
+												<div class="sortable_inner ui-sortable">
+												<!-- Header Image 270 -  -->
+												<table width="270" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter" object="drag-module-small">
+													<tbody><tr>
+														<td class="h50">
+														</td>
+													</tr>
+													<tr>
+														<td width="100%" class="image270" style="line-height: 1px;" >
+															<a href="#" style="text-decoration: none;">
+																<img src="images/header_image.png" width="270" height="auto" style="width: 270px; height:auto;" alt="" border="0" class="hover" mc:edit="8">
+															</a>
+														</td>
+													</tr>
+												</tbody></table>
+												
+												</div>
+											</td>
+										</tr>
+									</tbody></table>
+						
+								</td>
+							</tr>
+						</tbody></table>
+			
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper --> 
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table>
+<!-- Header End -->
+
+<!-- Wrapper 2 -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full"  bgcolor="#b3d3d6"style="background-color: rgb(179, 211, 214);">
+	<tbody><tr mc:repeatable>
+		<td width="100%" valign="top" align="center">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td align="center">
+					
+						<!-- Space -->
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tbody><tr>
+								<td width="100%" height="70"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+						
+						<!-- Wrapper -->
+						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tbody><tr>
+								<td width="100%" align="center">
+									
+									<!-- Icon 1 -->
+									<table width="180" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align: center;" class="fullCenter">
+										<tbody><tr>
+											<td valign="middle" width="100%" style="text-align: center; font-family: Helvetica, Arial, sans-serif; font-size: 20px; color: rgb(39, 44, 45); line-height: 24px; font-weight: normal;"class="fullCenter" mc:edit="222827">
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica; font-weight: normal;"><!--<![endif]-->Eye for Detail<!--[if !mso]><!--></span><!--<![endif]-->
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td valign="middle" width="100%" style="text-align: center; font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: rgb(255, 255, 255); line-height: 22px;" class="fullCenter"mc:edit="10">
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica; font-weight: normal;"><!--<![endif]-->Integer posuere erat a ante venenatis dapibus posu.<!--[if !mso]><!--></span><!--<![endif]-->
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="25">									
+											</td>
+										</tr>
+									</tbody></table>
+									
+									<!-- Space -->
+									<table width="30" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+										<tbody><tr>
+											<td width="100%" height="40">									
+											</td>
+										</tr>
+									</tbody></table>
+									
+									<!-- Icon 2 -->
+									<table width="180" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align: center;" class="fullCenter">
+										<tbody><tr>
+											<td valign="middle" width="100%" style="text-align: center; font-family: Helvetica, Arial, sans-serif; font-size: 20px; color: rgb(39, 44, 45); line-height: 24px; font-weight: normal;"class="fullCenter" mc:edit="11">
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica; font-weight: normal;"><!--<![endif]-->Fair Pricing<!--[if !mso]><!--></span><!--<![endif]-->
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td valign="middle" width="100%" style="text-align: center; font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: rgb(255, 255, 255); line-height: 22px;" class="fullCenter"mc:edit="12">
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica; font-weight: normal;"><!--<![endif]--></span>Integer posuere erat a ante venenatis dapibus posu.<!--[if !mso]><!--><!--<![endif]-->
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="25">									
+											</td>
+										</tr>
+									</tbody></table>
+									
+									<!-- Space -->
+									<table width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full">
+										<tbody><tr>
+											<td width="100%" height="40">									
+											</td>
+										</tr>
+									</tbody></table>
+									
+									<!-- Icon 3 -->
+									<table width="180" border="0" cellpadding="0" cellspacing="0" align="right" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; text-align: center;" class="fullCenter">
+										<tbody><tr>
+											<td valign="middle" width="100%" style="text-align: center; font-family: Helvetica, Arial, sans-serif; font-size: 20px; color: rgb(39, 44, 45); line-height: 24px; font-weight: normal;"class="fullCenter" mc:edit="13">
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica; font-weight: normal;"><!--<![endif]-->Award Winning<!--[if !mso]><!--></span><!--<![endif]-->
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="20"></td>
+										</tr>
+										<tr>
+											<td valign="middle" width="100%" style="text-align: center; font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: rgb(255, 255, 255); line-height: 22px;" class="fullCenter"mc:edit="14">
+												<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica; font-weight: normal;"><!--<![endif]-->Integer posuere erat a ante venenatis dapibus posu.<!--[if !mso]><!--></span><!--<![endif]-->
+											</td>
+										</tr>
+										<tr>
+											<td width="100%" height="25">									
+											</td>
+										</tr>
+									</tbody></table>
+									
+								</td>
+							</tr>
+						</tbody></table><!-- End Wrapper -->
+						
+						<!-- Space -->
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tbody><tr>
+								<td width="100%" height="45"></td>
+							</tr>
+						</tbody></table><!-- End Space -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><!-- Wrapper 2 -->
+
+<!-- Wrapper 2 -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full"  bgcolor="#ffffff"style="background-color: rgb(255, 255, 255);">
+	<tbody><tr mc:repeatable>
+		<td width="100%" valign="top" align="center">
+		<div mc:hideable>
+			
+			<!-- Wrapper -->
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
+				<tbody><tr>
+					<td align="center">
+						
+						<table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="full" align="center" border="0" width="600" cellpadding="0" cellspacing="0">
+							<tbody><tr>
+								<td height="25" width="100%"></td>
+							</tr>
+							<tr>
+								<td style="font-size: 14px; color: rgb(173, 174, 176); font-family: Helvetica, Arial, sans-serif; line-height: 22px; vertical-align: top;" align="center" width="100%" mc:edit="97">
+								
+									<!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica; font-weight: normal;"><!--<![endif]--><span >Copyright © RocketWay 2014 Craft. </span><!--[if !mso]><!--></span><!--<![endif]-->
+										
+									 <span class="break">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+									
+									
+										 <!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->
+              
+				                          <!--subscribe--><a href="#" style="color: rgb(179, 211, 214);" >Unsubscribe</a><!--unsub-->
+				                          <!--[if !mso]><!--></span><!--<![endif]-->
+				                   
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<!-- Space -->
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+							<tbody><tr>
+								<td width="100%" height="25"></td>
+							</tr>
+							<tr>
+								<td height="1" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+							</tr>
+						</tbody></table><!-- End Space -->
+						
+					</td>
+				</tr>
+			</tbody></table><!-- End Wrapper -->
+		
+		</div>
+		</td>
+	</tr>
+</tbody></table><!-- Wrapper 2 -->
+
+</div>
+</body></html>	<style>body{ background: none !important; } </style>

@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--[if mso]>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:AllowPNG/>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+
+    <style type="text/css">
+
+      @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700');
+      @media only screen {
+        .serif {font-family: 'Montserrat', Helvetica, Arial, sans-serif;}
+        .sans-serif {font-family: 'Open Sans', Arial, sans-serif;}
+      }
+
+      ::selection {color: #FFFFFF; background: #33363A;}
+      #outlook a {padding: 0;}
+      table, th, td {-webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; font-weight: 400; line-height: 26px; text-align: left;}
+      table, th, td, h1, h2, h3, h4, h5, h6 {font-family: Helvetica, Arial, sans-serif;}
+      img {-ms-interpolation-mode: bicubic; border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none;}
+      table {border-collapse: collapse;}
+
+      .row {width: 700px;}
+      .row .row {width: 100%;}
+
+      th.menu-item {display: inline;}
+
+      .hover-shrink:hover {transform: scale(0.7);}
+
+      @media only screen and (max-width: 699px) {
+
+        .row {width: 90% !important;}
+        .row .row {width: 100% !important;}
+
+        .column {
+          box-sizing: border-box;
+          display: inline-block !important;
+          width: 100% !important;
+        }
+        .mobile-1  {max-width: 8.33333%;}
+        .mobile-2  {max-width: 16.66667%;}
+        .mobile-3  {max-width: 25%;}
+        .mobile-4  {max-width: 33.33333%;}
+        .mobile-5  {max-width: 41.66667%;}
+        .mobile-6  {max-width: 50%;}
+        .mobile-7  {max-width: 58.33333%;}
+        .mobile-8  {max-width: 66.66667%;}
+        .mobile-9  {max-width: 75%;}
+        .mobile-10 {max-width: 83.33333%;}
+        .mobile-11 {max-width: 91.66667%;}
+        .mobile-12 {
+          padding-right: 30px !important;
+          padding-left: 30px !important;
+        }
+
+        .mobile-offset-1  {margin-left: 8.33333% !important;}
+        .mobile-offset-2  {margin-left: 16.66667% !important;}
+        .mobile-offset-3  {margin-left: 25% !important;}
+        .mobile-offset-4  {margin-left: 33.33333% !important;}
+        .mobile-offset-5  {margin-left: 41.66667% !important;}
+        .mobile-offset-6  {margin-left: 50% !important;}
+        .mobile-offset-7  {margin-left: 58.33333% !important;}
+        .mobile-offset-8  {margin-left: 66.66667% !important;}
+        .mobile-offset-9  {margin-left: 75% !important;}
+        .mobile-offset-10 {margin-left: 83.33333% !important;}
+        .mobile-offset-11 {margin-left: 91.66667% !important;}
+
+        .has-columns {
+          padding-right: 20px !important;
+          padding-left: 20px !important;
+        }
+
+        .has-columns .column {
+          padding-right: 10px !important;
+          padding-left: 10px !important;
+        }
+
+        .mobile-collapsed .column {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+
+        img {
+          max-width: 100%;
+          width: auto;
+          height: auto;
+        }
+
+        .mobile-center {
+          display: table !important;
+          float: none;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .mobile-text-center {text-align: center !important;}
+        .mobile-text-left   {text-align: left !important;}
+        .mobile-text-right  {text-align: right !important;}
+
+        .show-on-mobile {
+          display: table !important;
+          overflow: visible !important;
+          line-height: inherit !important;
+        }
+
+        .hide-on-mobile {
+          display: none !important;
+          width: 0;
+          overflow: hidden;
+        }
+
+        .mobile-full-width {
+          display: table;
+          width: 100%;
+        }
+
+        .mobile-first {display: table-header-group !important;}
+        .mobile-intermediate {display: table-row !important;}
+        .mobile-last {display: table-footer-group !important;}
+
+        .mobile-first th,
+        .mobile-intermediate th,
+        .mobile-last th {
+          padding-left: 30px !important;
+          padding-right: 30px !important;
+        }
+
+        .menu[align="center"],
+        .menu.mobile-center {
+          width: auto !important;
+        }
+        .menu th {
+          width: auto !important;
+          display: inline-block !important;
+          padding-bottom: 15px !important;
+        }
+        .menu.mobile-vertical th {
+          display: block !important;
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+
+        .hamburger-menu,
+        .accordion-content {
+          max-height: 0;
+          overflow: hidden;
+          -ms-transition: max-height .2s ease-in-out;
+          -webkit-transition: max-height .2s ease-in-out;
+            transition: max-height .2s ease-in-out;
+        }
+        .menu-trigger img {
+          display: block;
+          margin: 0 auto !important;
+          float: none !important;
+          max-height: none !important;
+        }
+        .menu-trigger:hover + .hamburger-menu,
+        .hamburger-menu:hover,
+        .accordion-item:hover .accordion-content {
+          max-height: 999px !important;
+          overflow: visible !important;
+        }
+
+        .spacer,
+        .divider th                 {height: 30px; line-height: 100% !important; font-size: 100% !important;}
+        .mobile-padding-top         {padding-top: 30px !important;}
+        .mobile-padding-top-mini    {padding-top: 10px !important;}
+        .mobile-padding-bottom      {padding-bottom: 30px !important;}
+        .mobile-padding-bottom-mini {padding-bottom: 10px !important;}
+        .mobile-margin-top          {margin-top: 30px !important;}
+        .mobile-margin-top-mini     {margin-top: 10px !important;}
+        .mobile-margin-bottom       {margin-bottom: 30px !important;}
+        .mobile-margin-bottom-mini  {margin-bottom: 10px !important;}
+      }
+
+    </style>
+  </head>
+  <body style="box-sizing: border-box; margin: 0; padding: 0; width: 100%;">
+
+    <!-- Email Wrapper -->
+    <table class="wrapper" align="center" bgcolor="#EEEEEE" style="border-spacing: 0; margin: 0 auto; width: 100%;">
+      <tr>
+        <td class="spacer" height="15" style="font-size: 15px; line-height: 15px; margin: 0; padding: 0;">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="padding: 0;">
+
+          <!-- Preheader Basic -->
+          <repeater>
+            <table class="row" align="center" bgcolor="#FFFFFF" style="border-spacing: 0; margin: 0 auto;">
+              <tr>
+                <td class="spacer" colspan="2" height="10" style="font-size: 10px; line-height: 10px; height: 10px; margin: 0; padding: 0;">&nbsp;</td>
+              </tr>
+              <tr valign="top" style="vertical-align: top;">
+                <th class="column mobile-6 sans-serif" width="310" style="width: 310px; padding: 0; padding-left: 30px; padding-right: 10px; font-weight: 400;">
+                  <a href="mailto:info@kantstartup.com" target="_blank" style="color: #969AA1; display: inline-block; font-size: 12px; text-decoration: none;">
+                    <singleline label="Preheader Contact Us">Contact Us</singleline>
+                  </a>
+                </th>
+                <th class="column mobile-6 sans-serif" width="310" style="width: 310px; padding: 0; padding-left: 10px; padding-right: 30px; font-weight: 400; text-align: right;">
+                  <webversion style="color: #969AA1; display: inline-block; font-size: 12px; text-decoration: none;">Online Version</webversion>
+                </th>
+              </tr>
+              <tr>
+                <td class="spacer" colspan="2" height="10" style="font-size: 10px; line-height: 10px; height: 10px; margin: 0; padding: 0;">&nbsp;</td>
+              </tr>
+            </table>
+          </repeater>
+          <!-- /Preheader Basic -->
+
+          <!-- Header Centered With Hamburger Menu -->
+          <table class="row" align="center" bgcolor="#FFFFFF" style="border-spacing: 0; margin: 0 auto;">
+            <tr>
+              <td class="spacer" height="40" style="font-size: 40px; line-height: 40px; margin: 0; padding: 0;">&nbsp;</td>
+            </tr>
+            <tr valign="top" style="vertical-align: top;">
+              <th class="column" width="640" style="width: 640px; padding: 0; padding-left: 30px; padding-right: 30px; font-weight: 400;">
+                <center>
+                  <a href="http://example.com" target="_blank" style="text-decoration: none;">
+                    <img editable src="logo.png" width="105" height="26" alt="Header Logo" style="margin: 0 auto; width: 105px; border: 0;">
+                  </a>
+                </center>
+              </th>
+            </tr>
+            <tr>
+              <td class="spacer" height="20" style="font-size: 20px; line-height: 20px; height: 20px; margin: 0; padding: 0;">&nbsp;</td>
+            </tr>
+            <tr valign="top" style="vertical-align: top;">
+              <th class="column" width="640" style="width: 640px; padding: 0; padding-left: 30px; padding-right: 30px; font-weight: 400;">
+                <div class="hamburger-menu-wrap">
+                  <!--[if !mso 9]><!-->
+                  <a class="menu-trigger show-on-mobile mobile-center" style="display: none; background-color: #FFFFFF; position: relative;">
+                    <img src="menu-icon.png" width="20" height="14" style="width: 20px; height: 14px; padding: 30px 20px 0; float: left; margin-left: -100em; max-height: 0;">
+                  </a>
+                  <!--<![endif]-->
+                  <div class="hamburger-menu" style="position: relative;">
+                    <center>
+                      <table class="menu mobile-vertical mobile-center mobile-margin-top" width="100%" style="border-spacing: 0; margin: 0 auto; text-align: center;">
+                        <tr>
+                          <th class="menu-item mobile-text-center serif" style="padding: 0; padding-right: 40px; text-align: right;">
+                            <singleline label="Header Menu Link 1">
+                              <a href="http://example.com" target="_blank" style="color: #999999; font-size: 14px; font-weight: 700; text-decoration: none; text-transform: uppercase;">News</a>
+                            </singleline>
+                          </th>
+                          <th class="menu-item mobile-text-center serif" style="padding: 0; padding-right: 40px; text-align: right;">
+                            <singleline label="Header Menu Link 2">
+                              <a href="http://example.com" target="_blank" style="color: #999999; font-size: 14px; font-weight: 700; text-decoration: none; text-transform: uppercase;">Services</a>
+                            </singleline>
+                          </th>
+                          <th class="menu-item mobile-text-center serif" style="padding: 0; padding-right: 40px; text-align: right;">
+                            <singleline label="Header Menu Link 3">
+                              <a href="http://example.com" target="_blank" style="color: #999999; font-size: 14px; font-weight: 700; text-decoration: none; text-transform: uppercase;">Work</a>
+                            </singleline>
+                          </th>
+                          <th class="menu-item mobile-text-center serif" style="padding: 0; text-align: right;">
+                            <singleline label="Header Menu Link 4">
+                              <a href="http://example.com" target="_blank" style="color: #999999; font-size: 14px; font-weight: 700; text-decoration: none; text-transform: uppercase;">Store</a>
+                            </singleline>
+                          </th>
+                        </tr>
+                      </table>
+                    </center>
+                  </div>
+                </div>
+              </th>
+            </tr>
+            <tr>
+              <td class="spacer" height="40" style="font-size: 40px; line-height: 40px; margin: 0; padding: 0;">&nbsp;</td>
+            </tr>
+          </table>
+          <!-- /Header Centered With Hamburger Menu -->
+
+          <!-- HERO 5 -->
+          <repeater>
+            <table class="row" align="center" bgcolor="#EEEEEE" style="border-spacing: 0; margin: 0 auto;">
+              <tr valign="top" style="vertical-align: top;">
+                <th class="column" width="640" style="width: 640px; padding: 0; padding-left: 30px; padding-right: 30px; font-weight: 400;">
+                  <table width="100%" style="border-spacing: 0; width: 100%;">
+                    <tr>
+                      <td class="spacer" height="150" style="font-size: 150px; line-height: 150px; margin: 0; padding: 0;">&nbsp;</td>
+                    </tr>
+                  </table>
+                  <h6 class="serif" style="color: #1F2225; font-size: 14px; font-weight: 700; line-height: 100%; margin: 0; margin-bottom: 30px; padding: 0; text-align: center;">
+                    <singleline label="Text Line 1">KANT EMAIL TEMPLATE</singleline>
+                  </h6>
+                  <h1 class="sans-serif" style="color: #1F2225; font-size: 52px; font-weight: 700; line-height: 50px; margin: 0; margin-bottom: 45px; padding: 0; text-align: center;">
+                    <multiline label="Text Line 2">Build a newsletter <br>that'll get attention</multiline>
+                  </h1>
+                  <h4 class="sans-serif" style="color: #1F2225; font-size: 18px; font-weight: 700; line-height: 30px; margin: 0; padding: 0; text-align: center;">
+                    <multiline label="Text Line 3">Kant is big, bold, beautiful, <br>and perfect for startups.</multiline>
+                  </h4>
+                  <table width="100%" style="border-spacing: 0; width: 100%;">
+                    <tr>
+                      <td class="spacer" height="150" style="font-size: 150px; line-height: 150px; margin: 0; padding: 0;">&nbsp;</td>
+                    </tr>
+                  </table>
+                </th>
+              </tr>
+            </table>
+          </repeater>
+          <!-- /HERO 5 -->
+
+          <!-- Blog Grid -->
+          <repeater>
+            <table class="row" align="center" bgcolor="#FFFFFF" style="border-spacing: 0; margin: 0 auto;">
+              <tr>
+                <td class="spacer" height="80" width="100%" style="font-size: 80px; line-height: 80px; margin: 0; padding: 0;">&nbsp;</td>
+              </tr>
+              <tr valign="top" style="vertical-align: top;">
+                <th class="column" width="640" style="width: 640px; padding: 0; padding-left: 30px; padding-right: 30px;">
+                  <h2 class="serif" style="color: #1F2225; font-size: 22px; font-weight: 400; margin: 0; padding: 0;">
+                    <singleline label="Blog Heading">Recent News</singleline>
+                  </h2>
+                </th>
+              </tr>
+              <tr>
+                <td class="spacer" height="40" style="font-size: 40px; line-height: 40px; margin: 0; padding: 0;">&nbsp;</td>
+              </tr>
+              <tr valign="top" style="vertical-align: top;">
+                <th class="column has-columns" width="640" style="width: 640px; padding: 0; padding-left: 30px; padding-right: 30px;">
+                  <table class="row" align="center" style="border-spacing: 0; margin: 0 auto;">
+                    <tr valign="top" style="vertical-align: top;">
+                      <th class="column sans-serif" width="310" style="width: 310px; padding: 0; padding-right: 10px; color: #969AA1; font-size: 13px; font-weight: 400;">
+                        <div style="margin-bottom: 20px;">
+                          <a href="http://example.com" target="_blank" style="text-decoration: none;">
+                            <img editable src="grid-landscape-1.jpg" width="310" alt="" style="border: 0;">
+                          </a>
+                        </div>
+                        <h5 class="serif" style="color: #1F2225; font-size: 16px; font-weight: 700; margin: 0; padding: 0;">
+                          <a href="http://example.com" target="_blank" style="color: #1F2225; font-weight: 700; text-decoration: none;">
+                            <singleline label="Article 1 Title">Immerse Typo</singleline>
+                          </a>
+                        </h5>
+                        <h6 class="mobile-margin-bottom-mini sans-serif" style="color: #969AA1; font-size: 12px; font-weight: 400; line-height: 100%; margin: 0; margin-bottom: 20px; padding: 0;">
+                          <singleline label="Article 1 Meta"><strong>05 JUN</strong> - IN DESIGN</singleline>
+                        </h6>
+                        <div>
+                          <multiline label="Article 1 Excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec nisi sed diam ultricies tempus.</multiline>
+                        </div>
+                      </th>
+                      <th class="column mobile-padding-top sans-serif" width="310" style="width: 310px; padding: 0; padding-left: 10px; color: #969AA1; font-size: 13px; font-weight: 400;">
+                        <div style="margin-bottom: 20px;">
+                          <a href="http://example.com" target="_blank" style="text-decoration: none;">
+                            <img editable src="grid-landscape-2.jpg" width="310" alt="" style="border: 0;">
+                          </a>
+                        </div>
+                        <h5 class="serif" style="color: #1F2225; font-size: 16px; font-weight: 700; margin: 0; padding: 0;">
+                          <a href="http://example.com" target="_blank" style="color: #1F2225; font-weight: 700; text-decoration: none;">
+                            <singleline label="Article 2 Title">Designed by D</singleline>
+                          </a>
+                        </h5>
+                        <h6 class="mobile-margin-bottom-mini sans-serif" style="color: #969AA1; font-size: 12px; font-weight: 400; line-height: 100%; margin: 0; margin-bottom: 20px; padding: 0;">
+                          <singleline label="Article 2 Meta"><strong>23 MAY</strong> - IN DESIGN, ILLUSTRATION</singleline>
+                        </h6>
+                        <div>
+                          <multiline label="Article 2 Excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec nisi sed diam ultricies tempus.</multiline>
+                        </div>
+                      </th>
+                    </tr>
+                  </table>
+                </th>
+              </tr>
+              <tr>
+                <td class="spacer" height="60" style="font-size: 60px; line-height: 60px; margin: 0; padding: 0;">&nbsp;</td>
+              </tr>
+              <tr valign="top" style="vertical-align: top;">
+                <th class="column has-columns" width="640" style="width: 640px; padding: 0; padding-left: 30px; padding-right: 30px;">
+                  <table class="row" align="center" style="border-spacing: 0; margin: 0 auto;">
+                    <tr valign="top" style="vertical-align: top;">
+                      <th class="column sans-serif" width="200" style="width: 200px; padding: 0; padding-right: 10px; color: #969AA1; font-size: 13px; font-weight: 400;">
+                        <div style="margin-bottom: 20px;">
+                          <a href="http://example.com" target="_blank" style="text-decoration: none;">
+                            <img editable src="grid-landscape-small-1.jpg" width="200" alt="" style="border: 0;">
+                          </a>
+                        </div>
+                        <h5 class="serif" style="color: #1F2225; font-size: 16px; font-weight: 700; margin: 0; padding: 0;">
+                          <a href="http://example.com" target="_blank" style="color: #1F2225; font-weight: 700; text-decoration: none;">
+                            <singleline label="Article 3 Title">Forest Typography</singleline>
+                          </a>
+                        </h5>
+                        <h6 class="mobile-margin-bottom-mini sans-serif" style="color: #969AA1; font-size: 12px; font-weight: 400; line-height: 100%; margin: 0; margin-bottom: 20px; padding: 0;">
+                          <singleline label="Article 3 Meta"><strong>21 MAY</strong> - IN TYPOGRAPHY</singleline>
+                        </h6>
+                        <div>
+                          <multiline label="Article 3 Excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</multiline>
+                        </div>
+                      </th>
+                      <th class="column mobile-padding-top sans-serif" width="200" style="width: 200px; padding: 0; padding-left: 10px; padding-right: 10px; color: #969AA1; font-size: 13px; font-weight: 400;">
+                        <div style="margin-bottom: 20px;">
+                          <a href="http://example.com" target="_blank" style="text-decoration: none;">
+                            <img editable src="grid-landscape-small-2.jpg" width="200" alt="" style="border: 0;">
+                          </a>
+                        </div>
+                        <h5 class="serif" style="color: #1F2225; font-size: 16px; font-weight: 700; margin: 0; padding: 0;">
+                          <a href="http://example.com" target="_blank" style="color: #1F2225; font-weight: 700; text-decoration: none;">
+                            <singleline label="Article 4 Title">The Perfect Ride</singleline>
+                          </a>
+                        </h5>
+                        <h6 class="mobile-margin-bottom-mini sans-serif" style="color: #969AA1; font-size: 12px; font-weight: 400; line-height: 100%; margin: 0; margin-bottom: 20px; padding: 0;">
+                          <singleline label="Article 4 Meta"><strong>23 APR</strong> - IN PHOTOGRAPHY</singleline>
+                        </h6>
+                        <div>
+                          <multiline label="Article 4 Excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</multiline>
+                        </div>
+                      </th>
+                      <th class="column mobile-padding-top sans-serif" width="200" style="width: 200px; padding: 0; padding-left: 10px; color: #969AA1; font-weight: 400; font-size: 13px;">
+                        <div style="margin-bottom: 20px;">
+                          <a href="http://example.com" target="_blank" style="text-decoration: none;">
+                            <img editable src="grid-landscape-small-3.jpg" width="200" alt="" style="border: 0;">
+                          </a>
+                        </div>
+                        <h5 class="serif" style="color: #1F2225; font-size: 16px; font-weight: 700; margin: 0; padding: 0;">
+                          <a href="http://example.com" target="_blank" style="color: #1F2225; font-weight: 700; text-decoration: none;">
+                            <singleline label="Article 5 Title">Inspirational Signs</singleline>
+                          </a>
+                        </h5>
+                        <h6 class="mobile-margin-bottom-mini sans-serif" style="color: #969AA1; font-size: 12px; font-weight: 400; line-height: 100%; margin: 0; margin-bottom: 20px; padding: 0;">
+                          <singleline label="Article 5 Meta"><strong>07 MAR</strong> - IN DESIGN</singleline>
+                        </h6>
+                        <div>
+                          <multiline label="Article 5 Excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</multiline>
+                        </div>
+                      </th>
+                    </tr>
+                  </table>
+                </th>
+              </tr>
+              <tr>
+                <td class="spacer" height="80" width="100%" style="font-size: 80px; line-height: 80px; margin: 0; padding: 0;">&nbsp;</td>
+              </tr>
+            </table>
+          </repeater>
+          <!-- /Blog Grid -->
+
+          <!-- Social 1 -->
+          <repeater>
+            <table class="row" align="center" bgcolor="#FFFFFF" style="border-spacing: 0; margin: 0 auto;">
+              <tr valign="top" style="vertical-align: top;">
+                <th class="column" width="640" style="width: 640px; padding: 0; padding-left: 30px; padding-right: 30px; font-weight: 400;">
+                  <h6 class="serif" style="color: #969AA1; font-size: 12px; font-weight: 400; line-height: 100%; margin: 0; padding: 0; text-align: center; text-transform: uppercase;">
+                    <singleline label="Social Heading">Socialize with us</singleline>
+                  </h6>
+                  <table align="center" width="100%" style="border-spacing: 0; margin: 0 auto; width: 100%;">
+                    <tr>
+                      <td class="spacer" height="30" style="font-size: 30px; line-height: 30px; margin: 0; padding: 0;">&nbsp;</td>
+                    </tr>
+                  </table>
+                  <center>
+                    <a href="http://example.com" target="_blank" style="display: inline-block; text-decoration: none;">
+                      <img editable src="facebook-dark.png" align="center" width="18" height="18" alt="Facebook" style="display: inline-block; padding-right: 5px; width: 18px; border: 0;">&nbsp; </a>
+                    <a href="http://example.com" target="_blank" style="display: inline-block; text-decoration: none;"> &nbsp;
+                      <img editable src="twitter-dark.png" align="center" width="18" height="18" alt="Twitter" style="display: inline-block; padding-left: 5px; padding-right: 5px; width: 18px; border: 0;">&nbsp; </a>
+                    <a href="http://example.com" target="_blank" style="display: inline-block; text-decoration: none;"> &nbsp;
+                      <img editable src="dribbble-dark.png" align="center" width="18" height="18" alt="Dribbble" style="display: inline-block; padding-left: 5px; padding-right: 5px; width: 18px; border: 0;">&nbsp; </a>
+                    <a href="http://example.com" target="_blank" style="display: inline-block; text-decoration: none;"> &nbsp;
+                      <img editable src="instagram-dark.png" align="center" width="18" height="18" alt="Instagram" style="display: inline-block; padding-left: 5px; width: 18px; border: 0;"> </a>
+                  </center>
+                </th>
+              </tr>
+              <tr>
+                <td class="spacer" height="80" style="font-size: 80px; line-height: 80px; margin: 0; padding: 0;">&nbsp;</td>
+              </tr>
+            </table>
+          </repeater>
+          <!-- /Social 1 -->
+
+          <!-- Footer 1 -->
+          <table class="row" align="center" bgcolor="#FFFFFF" style="border-spacing: 0; border-top: 1px solid #EEEEEE; margin: 0 auto;">
+            <tr>
+              <th class="column has-columns" width="640" style="width: 640px; padding: 0; padding-left: 30px; padding-right: 30px;">
+
+                <table class="row" align="center" style="border-spacing: 0; margin: 0 auto;">
+                  <tr>
+                    <td class="spacer" height="80" colspan="2" style="font-size: 80px; line-height: 80px; margin: 0; padding: 0;">&nbsp;</td>
+                  </tr>
+                  <tr valign="top" style="vertical-align: top;">
+                    <th class="column mobile-padding-bottom" width="255" style="width: 255px; padding: 0; padding-right: 10px; font-weight: 400; text-align: left;">
+                      <a href="http://example.com" target="_blank">
+                        <img editable src="logo-footer-light.png" width="78" height="19" alt="Footer Logo" style="height: 19px; width: 78px; border: 0;">
+                      </a>
+                    </th>
+                    <th class="column mobile-text-left" width="365" style="width: 365px; padding: 0; padding-left: 10px; color: #969AA1; font-size: 13px; font-weight: 400; text-align: right;">
+                      <a href="http://example.com" target="_blank" style="color: #3FB58B; display: inline-block; text-decoration: none;">
+                        <img editable src="twitter-circle.png" width="24" height="24" alt="Twitter" style="display: inline-block; width: 24px; border: 0;">&nbsp; </a>
+                      <a href="http://example.com" target="_blank" style="color: #3FB58B; display: inline-block; text-decoration: none;">
+                      &nbsp;
+                        <img editable src="facebook-circle.png" width="24" height="24" alt="Facebook" style="display: inline-block; width: 24px; border: 0;">&nbsp; </a>
+                      <a href="http://example.com" target="_blank" style="color: #3FB58B; display: inline-block; text-decoration: none;">
+                      &nbsp;
+                        <img editable src="pinterest-circle.png" width="24" height="24" alt="Pinterest" style="display: inline-block; width: 24px; border: 0;">&nbsp; </a>
+                      <a href="http://example.com" target="_blank" style="color: #3FB58B; display: inline-block; text-decoration: none;">
+                      &nbsp;
+                        <img editable src="googleplus-circle.png" width="24" height="24" alt="Google+" style="display: inline-block; width: 24px; border: 0;"> </a>
+                    </th>
+                  </tr>
+                </table>
+
+                <table class="row" align="center" style="border-spacing: 0; margin: 0 auto;">
+                  <tr>
+                    <th class="column" width="640" style="width: 640px; padding: 0;">
+                      <table class="divider" width="100%" style="border-spacing: 0;">
+                        <tr>
+                          <th height="30" style="font-size: 30px; line-height: 30px; padding: 0;">&nbsp;</th>
+                        </tr>
+                        <tr>
+                          <td height="1" style="height: 1px; border-top: 1px solid #2B2E32; padding: 0; font-size: 1px; line-height: 1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <th height="30" style="font-size: 30px; line-height: 30px; padding: 0;">&nbsp;</th>
+                        </tr>
+                      </table>
+                    </th>
+                  </tr>
+                </table>
+
+                <table align="center" width="100%" style="border-spacing: 0; margin: 0 auto; width: 100%;">
+                  <tr>
+                    <td class="spacer" height="40" style="font-size: 40px; line-height: 40px; margin: 0; padding: 0;">&nbsp;</td>
+                  </tr>
+                </table>
+
+                <table class="row" align="center" style="border-spacing: 0; margin: 0 auto;">
+                  <tr valign="top" style="vertical-align: top;">
+                    <th class="column mobile-6 sans-serif" width="200" style="width: 200px; padding: 0; padding-right: 10px; color: #969AA1; font-size: 13px; font-weight: 400; text-align: left;">
+                      <h5 class="sans-serif" style="color: #969AA1; font-size: 14px; font-weight: 700; margin: 0; margin-bottom: 15px;">
+                        <singleline label="Footer Company Name">Kant Headquarters</singleline>
+                      </h5>
+                      <div style="margin-bottom: 20px;">
+                        <multiline label="Footer Company Address">126-130 Crosby Street,
+                        <br> Soho New York City,
+                        <br> NY 10012, U.S.</multiline>
+                      </div>
+                    </th>
+                    <th class="column mobile-6 sans-serif" width="420" style="width: 420px; padding: 0; padding-left: 10px; font-weight: 400; text-align: left;">
+                      <div style="margin-bottom: 5px;">
+                        <a href="http://example.com" target="_blank" style="color: #969AA1; font-size: 13px; text-decoration: none;">
+                          <singleline>Have Questions?</singleline>
+                        </a>
+                      </div>
+                      <div style="margin-bottom: 5px;">
+                        <webversion style="color: #969AA1; font-size: 13px; text-decoration: none;">Online Version</webversion>
+                      </div>
+                      <div style="margin-bottom: 5px;">
+                        <unsubscribe style="color: #969AA1; font-size: 13px; text-decoration: none;">Unsubscribe</unsubscribe>
+                      </div>
+                    </th>
+                  </tr>
+                </table>
+
+                <table align="center" width="100%" style="border-spacing: 0; margin: 0 auto; width: 100%;">
+                  <tr>
+                    <td class="spacer" height="40" style="font-size: 40px; line-height: 40px; margin: 0; padding: 0;">&nbsp;</td>
+                  </tr>
+                </table>
+
+                <table class="row" align="center" style="border-spacing: 0; margin: 0 auto;">
+                  <tr valign="top" style="vertical-align: top;">
+                    <th class="column sans-serif" width="640" style="width: 640px; padding: 0; color: #969AA1; font-size: 13px; font-weight: 400; text-align: left;">
+                      <div>
+                        <multiline label="Footer Copyright">&copy; ThemeMountain. All Rights Reserved.</multiline>
+                        <singleline label="Footer Terms And Conditions">Terms &amp; Conditions</singleline>
+                      </div>
+                    </th>
+                  </tr>
+                </table>
+
+                <table align="center" width="100%" style="border-spacing: 0; margin: 0 auto; width: 100%;">
+                  <tr>
+                    <td class="spacer" height="30" style="font-size: 30px; line-height: 30px; margin: 0; padding: 0;">&nbsp;</td>
+                  </tr>
+                </table>
+
+              </th>
+            </tr>
+          </table>
+          <!-- /Footer 1 -->
+
+        </td>
+      </tr>
+      <tr>
+        <td class="spacer" height="15" style="font-size: 15px; line-height: 15px; margin: 0; padding: 0;">&nbsp;</td>
+      </tr>
+    </table>
+
+  </body>
+</html>
